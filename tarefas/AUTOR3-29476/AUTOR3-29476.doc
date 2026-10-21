@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#AUTOR3-29476] [BONUS] - [H2] -Clicar na marca Azul não deve forçar o item 1 — auto-cotacao-web</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://portoseguro.atlassian.net/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://portoseguro.atlassian.net/browse/EE2-266">Integração com atendimento e Auto Serviço</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://portoseguro.atlassian.net/browse/EE2-266">EE2-266</a>)</span>
+                <h3 class="formtitle"><img src="https://portoseguro.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [AUTOR3-29476]&nbsp;<a href="https://portoseguro.atlassian.net/browse/AUTOR3-29476">[BONUS] - [H2] -Clicar na marca Azul não deve forçar o item 1 — auto-cotacao-web</a>
+            <span class="subText">
+               Created: 23/09/2026                   &nbsp;Updated: 20/10/2026
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">EM DESENVOLVIMENTO</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://portoseguro.atlassian.net/secure/BrowseProject.jspa?id=15257">Auto 2.0 - R3 v2</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                                        <a title="sboot-auto-apol-condicoes-gerais"
+                href="https://portoseguro.atlassian.net/issues/?jql=project%3D15257%20AND%20%22component%22%3D43233%20ORDER%20BY%20priority%20ASC"
+            >sboot-auto-apol-condicoes-gerais</a>                        </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                                        <a title="R3-Transformação Tecnológica"
+                href="https://portoseguro.atlassian.net/issues/?jql=project%3D15257%20AND%20%22fixVersion%22%3D23664%20ORDER%20BY%20priority%20ASC"
+            >R3-Transformação Tecnológica</a>,                    <a title="Marco - MVP Nova Emissão"
+                href="https://portoseguro.atlassian.net/issues/?jql=project%3D15257%20AND%20%22fixVersion%22%3D23684%20ORDER%20BY%20priority%20ASC"
+            >Marco - MVP Nova Emissão</a>,                    <a title="Onda 3 - R3"
+                href="https://portoseguro.atlassian.net/issues/?jql=project%3D15257%20AND%20%22fixVersion%22%3D23694%20ORDER%20BY%20priority%20ASC"
+            >Onda 3 - R3</a>,                    <a title="PI - 4º TRI - Set/2026"
+                href="https://portoseguro.atlassian.net/issues/?jql=project%3D15257%20AND%20%22fixVersion%22%3D47781%20ORDER%20BY%20priority%20ASC"
+            >PI - 4º TRI - Set/2026</a>                        </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Parent:</b></td>
+        <td width="80%"><a href="https://portoseguro.atlassian.net/browse/EE2-266">Integração com atendimento e Auto Serviço</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Story
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                3 - Médio
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:54e2203e-76f3-465f-9b0b-2d881d6175e1"
+                id="word_reporter_712020:54e2203e-76f3-465f-9b0b-2d881d6175e1"
+                href="https://portoseguro.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A54e2203e-76f3-465f-9b0b-2d881d6175e1">
+                    Rafael Oliveira Da Silva
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:2626f737-409e-45cb-8aff-5770a88c7e25"
+                id="word_assignee_712020:2626f737-409e-45cb-8aff-5770a88c7e25"
+                href="https://portoseguro.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A2626f737-409e-45cb-8aff-5770a88c7e25">
+                    Jhonny Scerni Gondim Costa
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-11348794-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            R3#NovaEmissao4                    </td>
+    </tr>
+    
+    	<tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+                    </td>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Time Spent:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+                    </td>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Original Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+                    </td>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://portoseguro.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    image-20260923-130431.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Issue links:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Blocks</b><br/>
+                            </td>
+                        </tr>
+                                    <tr>
+            <td>
+                blocks
+            </td>
+            <td>
+                <a href="https://portoseguro.atlassian.net/browse/AUTOR3-29521">
+                     AUTOR3-29521                 </a>
+            </td>
+            <td>
+                [BONUS] - [H3] - De-para do item do b...
+            </td>
+            <td>
+                EM DESENVOLVIMENTO
+            </td>
+        </tr>
+                                                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Cloners</b><br/>
+                            </td>
+                        </tr>
+                                                                <tr>
+            <td>
+                is cloned by
+            </td>
+            <td>
+                <a href="https://portoseguro.atlassian.net/browse/AUTOR3-29521">
+                     AUTOR3-29521                 </a>
+            </td>
+            <td>
+                [BONUS] - [H3] - De-para do item do b...
+            </td>
+            <td>
+                EM DESENVOLVIMENTO
+            </td>
+        </tr>
+                                                <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Feature</b><br/>
+                            </td>
+                        </tr>
+                                                                <tr>
+            <td>
+                Feature
+            </td>
+            <td>
+                <a href="https://portoseguro.atlassian.net/browse/AUTOR3-27606">
+                     AUTOR3-27606                 </a>
+            </td>
+            <td>
+                Ajuste para aproveitamento de bônus d...
+            </td>
+            <td>
+                PREPARADO PARA DESENVOLVIMENTO
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+            <tr><td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sub-tasks:</b></td>
+    <td bgcolor="#ffffff" valign="top">
+        <table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            <tr bgcolor="#f0f0f0">
+                <td>
+                    <b>Key</b><br/>
+                </td>
+                <td>
+                    <b>Summary</b><br/>
+                </td>
+                <td>
+                    <b>Type</b><br/>
+                </td>
+                <td>
+                    <b>Status</b><br/>
+                </td>
+                <td>
+                    <b>Assignee</b><br/>
+                </td>
+            </tr>
+                            <tr>
+                    <td>
+                        <a href="https://portoseguro.atlassian.net/browse/AUTOR3-29477">AUTOR3-29477</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://portoseguro.atlassian.net/browse/AUTOR3-29477">[DOR - Critérios de Aceite]  </a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        Backlog
+                    </td>
+                    <td>
+                                                     &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://portoseguro.atlassian.net/browse/AUTOR3-29478">AUTOR3-29478</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://portoseguro.atlassian.net/browse/AUTOR3-29478">[DOR - Critérios de Aceite]  </a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        Backlog
+                    </td>
+                    <td>
+                                                     &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://portoseguro.atlassian.net/browse/AUTOR3-29479">AUTOR3-29479</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://portoseguro.atlassian.net/browse/AUTOR3-29479">[DOR - BDD]</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        Backlog
+                    </td>
+                    <td>
+                                                     &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://portoseguro.atlassian.net/browse/AUTOR3-29480">AUTOR3-29480</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://portoseguro.atlassian.net/browse/AUTOR3-29480">[DOR - BDD]</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        Backlog
+                    </td>
+                    <td>
+                                                     &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://portoseguro.atlassian.net/browse/AUTOR3-29481">AUTOR3-29481</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://portoseguro.atlassian.net/browse/AUTOR3-29481">[DOD - Débito Técnico]</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        Backlog
+                    </td>
+                    <td>
+                                                     &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://portoseguro.atlassian.net/browse/AUTOR3-29482">AUTOR3-29482</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://portoseguro.atlassian.net/browse/AUTOR3-29482">[DOD - Débito Técnico]</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        Backlog
+                    </td>
+                    <td>
+                                                     &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://portoseguro.atlassian.net/browse/AUTOR3-29483">AUTOR3-29483</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://portoseguro.atlassian.net/browse/AUTOR3-29483">[DOD - Feature Toggle]</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        Backlog
+                    </td>
+                    <td>
+                                                     &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://portoseguro.atlassian.net/browse/AUTOR3-29485">AUTOR3-29485</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://portoseguro.atlassian.net/browse/AUTOR3-29485">[DOD - Certificação Técnica]</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        Backlog
+                    </td>
+                    <td>
+                                                     &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://portoseguro.atlassian.net/browse/AUTOR3-29484">AUTOR3-29484</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://portoseguro.atlassian.net/browse/AUTOR3-29484">[DOD - Feature Toggle]</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        Backlog
+                    </td>
+                    <td>
+                                                     &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://portoseguro.atlassian.net/browse/AUTOR3-29486">AUTOR3-29486</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://portoseguro.atlassian.net/browse/AUTOR3-29486">[DOD - Performance Query]</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        Backlog
+                    </td>
+                    <td>
+                                                     &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://portoseguro.atlassian.net/browse/AUTOR3-29487">AUTOR3-29487</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://portoseguro.atlassian.net/browse/AUTOR3-29487">[DOD - Certificação Técnica]</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        Backlog
+                    </td>
+                    <td>
+                                                     &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://portoseguro.atlassian.net/browse/AUTOR3-29488">AUTOR3-29488</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://portoseguro.atlassian.net/browse/AUTOR3-29488"> [DOD - Desenv. para Monitoramento]</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        Backlog
+                    </td>
+                    <td>
+                                                     &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://portoseguro.atlassian.net/browse/AUTOR3-29490">AUTOR3-29490</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://portoseguro.atlassian.net/browse/AUTOR3-29490">[DOD - Atualização de Cenários Testes]</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        Backlog
+                    </td>
+                    <td>
+                                                     &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://portoseguro.atlassian.net/browse/AUTOR3-29489">AUTOR3-29489</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://portoseguro.atlassian.net/browse/AUTOR3-29489">[DOD - Performance Query]</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        Backlog
+                    </td>
+                    <td>
+                                                     &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://portoseguro.atlassian.net/browse/AUTOR3-29491">AUTOR3-29491</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://portoseguro.atlassian.net/browse/AUTOR3-29491">[DOD - Evidências de Testes]</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        Backlog
+                    </td>
+                    <td>
+                                                     &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://portoseguro.atlassian.net/browse/AUTOR3-29492">AUTOR3-29492</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://portoseguro.atlassian.net/browse/AUTOR3-29492"> [DOD - Desenv. para Monitoramento]</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        Backlog
+                    </td>
+                    <td>
+                                                     &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://portoseguro.atlassian.net/browse/AUTOR3-29493">AUTOR3-29493</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://portoseguro.atlassian.net/browse/AUTOR3-29493">[DOD - Planos de Testes Atualizados]</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        Backlog
+                    </td>
+                    <td>
+                                                     &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://portoseguro.atlassian.net/browse/AUTOR3-29494">AUTOR3-29494</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://portoseguro.atlassian.net/browse/AUTOR3-29494">[DOD - Atualização de Cenários Testes]</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        Backlog
+                    </td>
+                    <td>
+                                                     &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://portoseguro.atlassian.net/browse/AUTOR3-29495">AUTOR3-29495</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://portoseguro.atlassian.net/browse/AUTOR3-29495">[DOD - Evidências de Testes]</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        Backlog
+                    </td>
+                    <td>
+                                                     &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://portoseguro.atlassian.net/browse/AUTOR3-29496">AUTOR3-29496</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://portoseguro.atlassian.net/browse/AUTOR3-29496">[DOD - Planos de Testes Atualizados]</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        Backlog
+                    </td>
+                    <td>
+                                                     &nbsp;
+                                            </td>
+                </tr>
+                    </table>
+    </td>
+</tr>
+    
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10010-11348794-value" class="value" bgcolor="#ffffff" width="80%">NovaEmissão4 - Sprint 2026.4.2</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Elegível de Repasse:</b></td>
+                <td id="customfield_11141-11348794-value" class="value" bgcolor="#ffffff" width="80%">    Não
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Epic Link:</b></td>
+                <td id="customfield_10008-11348794-value" class="value" bgcolor="#ffffff" width="80%">
+    <a class="aui-label ghx-label-11" href="https://portoseguro.atlassian.net/browse/EE2-266">
+        Integração com atendimento e Auto Serviço
+    </a>
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Épico Origem:</b></td>
+                <td id="customfield_10432-11348794-value" class="value" bgcolor="#ffffff" width="80%">      <a href="https://portoseguro.atlassian.net/browse/EE2-266" title="Integração com atendimento e Auto Serviço" class="issue-link" data-issue-key="EE2-266">EE2-266</a>
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Área de Origem:</b></td>
+                <td id="customfield_10433-11348794-value" class="value" bgcolor="#ffffff" width="80%">      Auto 2.0 - R3 v2
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Nome Demanda/Projeto:</b></td>
+                <td id="customfield_10434-11348794-value" class="value" bgcolor="#ffffff" width="80%">      [Cond. Gerais] -  Use case Consultar Condi&#xE7;&#xE3;o Geral vigente - sboot-auto-apol-condicoes-gerais
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Story Points:</b></td>
+                <td id="customfield_10030-11348794-value" class="value" bgcolor="#ffffff" width="80%">    5
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Team:</b></td>
+                <td id="customfield_10001-11348794-value" class="value" bgcolor="#ffffff" width="80%"><div class="shorten" id="customfield_10001-field">
+    <span></span>
+</div>
+</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <div class='table-wrap'>
+<table class='confluenceTable'><tbody>
+<tr>
+<td class='confluenceTd'><b>VISÃO DO USUÁRIO:</b></td>
+</tr>
+<tr>
+<td class='confluenceTd'><b>Eu como</b> corretor <br/>
+<b>Quero</b> que o clique na marca <b>Azul</b> se comporte igual ao clique em <b>Porto</b> ou <b>Itaú</b>,<br/>
+<b>Para</b> o campo de item não ser preenchido sozinho e eu conseguir informar o item correto da apólice de bônus.</td>
+</tr>
+</tbody></table>
+</div>
+
+
+<div class='table-wrap'>
+<table class='confluenceTable'><tbody>
+<tr>
+<td class='confluenceTd'><b>ESCOPO - Lista de Funcionalidades</b></td>
+</tr>
+</tbody></table>
+</div>
+
+
+<p><span class="image-wrap" style=""><img src="https://portoseguro.atlassian.net/rest/api/3/attachment/content/1808603" alt="image-20260923-130431.png" width="972" style="border: 0px solid black" /></span></p>
+
+
+
+<p>Remover o preenchimento automático do item no clique da marca Azul e deixar a task <b>de-para</b> ser o único responsável pelo valor do item, além de padronizar o congênere enviado pelos três botões.</p>
+
+<p>Hoje, ao clicar em <b>Porto</b> ou <b>Itaú</b> o campo item <b>não é preenchido</b>; ao clicar em <b>Azul</b> ele é preenchido com <tt>1</tt> automaticamente. É desse comportamento que nasce o item <tt>1</tt> que depois dispara a crítica 752.</p>
+
+<h2><a name="Regrasdeacionamento"></a>Regras de acionamento</h2>
+
+<ul>
+	<li>vale para os <b>três</b> botões de marca (Porto, Itaú e Azul);</li>
+	<li>nenhum clique de marca deve preencher o campo item;</li>
+</ul>
+
+
+<h2><a name="Fluxo"></a>Fluxo</h2>
+
+<ol>
+	<li>O corretor clica numa das três marcas.</li>
+	<li>A tela define a <b>marca</b> conforme <tt>marcasOptions</tt>.</li>
+	<li>A tela define o <b>congênere</b>: Azul → <tt>null</tt>; Porto e Itaú → <tt>5886</tt>.</li>
+	<li>A tela <b>não</b> toca no campo item.</li>
+	<li>O item passa a ser responsabilidade da task [<span class="error">&#91;*de-para*&#93;</span>].</li>
+</ol>
+
+
+
+
+
+
+<p><b>CRITÉRIOS DE ACEITE</b></p>
+
+<div class='table-wrap'>
+<table class='confluenceTable'><tbody>
+<tr>
+<td class='confluenceTd'><ul>
+	<li><b>CENÁRIO 1</b> - Clique na marca Azul<br/>
+       <b>Dado que</b> o corretor está no bloco de bônus da proposta<br/>
+       <b>Quando</b> ele clicar em <tt>Azul Seguros</tt><br/>
+       <b>Então</b> a marca deve ser <tt>1002</tt><br/>
+       <b>E</b> o congênere deve ser <tt>null</tt><br/>
+       <b>E</b> o campo item não deve ser preenchido nem esvaziado automaticamente.</li>
+	<li><b>CENÁRIO 2</b> - Clique na marca Porto<br/>
+<b>Dado que</b> o corretor está no bloco de bônus da proposta<br/>
+<b>Quando</b> ele clicar em <tt>Porto Seguro</tt><br/>
+<b>Então</b> a marca deve ser <tt>1001</tt> e o congênere <tt>5886</tt><br/>
+<b>E</b> o campo item não deve ser alterado.</li>
+	<li><b>CENÁRIO 3</b> - Clique na marca Itaú<br/>
+<b>Dado que</b> o corretor está no bloco de bônus da proposta<br/>
+<b>Quando</b> ele clicar em <tt>Itaú Seguros</tt><br/>
+<b>Então</b> a marca deve ser <tt>1003</tt> e o congênere <tt>5886</tt><br/>
+<b>E</b> o campo item não deve ser alterado.</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class='confluenceTd'>&nbsp;</td>
+</tr>
+</tbody></table>
+</div>
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+Generated at Wed Oct 21 01:43:03 UTC 2026 by Jhonny Scerni Gondim Costa using Jira 1001.0.0-SNAPSHOT#100295-rev:e73e298945c7d2f7b579779a90edd5ffcceff065.
+
+</body>
+</html>
