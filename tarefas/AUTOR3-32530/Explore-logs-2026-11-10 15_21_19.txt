@@ -1,0 +1,64 @@
+Common labels: {"ambiente":"dev","app":"sboot-auto-prop-proposta-bff","cluster_name":"eks-auto-ecor-dev","cluster_type":"eks","component":"java","container":"sboot-auto-prop-proposta-bff","filename":"/var/log/pods/auto-prop_sboot-auto-prop-proposta-bff-64b86bdfbf-jwzfv_13bcafaf-60bc-45d8-bf0a-2d332098af6b/sboot-auto-prop-proposta-bff/0.log","instance":"sboot-auto-prop-proposta-bff","job":"auto-prop/sboot-auto-prop-proposta-bff","namespace":"auto-prop","node_name":"ip-10-34-242-114.ca-central-1.compute.internal","pod":"sboot-auto-prop-proposta-bff-64b86bdfbf-jwzfv","stream":"stdout"}
+Line limit: "1000 (59 returned)"
+Total bytes processed: "10.0  kB"
+
+
+2026-11-10 15:20:10.211	15:20:10.211 [INFO ] c.p.a.util.filter.RequestInterceptor - RESPONSE -  Method:GET, URI: /sboot-auto-prop-proposta-bff/v1/proposta/6af31d55ee83fd22dc20a79f/complemento, Path: /v1/proposta/6af31d55ee83fd22dc20a79f/complemento, Status:204  
+2026-11-10 15:20:10.193	15:20:10.193 [DEBUG] c.p.a.u.clients.AuthFeignInterceptor - Token Bearer eyJ... propagado - FeignClient  
+2026-11-10 15:20:10.193	15:20:10.193 [DEBUG] c.p.a.u.clients.AuthFeignInterceptor - Propagando token - FeignClient  
+2026-11-10 15:20:09.985	15:20:09.985 [INFO ] c.p.a.util.filter.RequestInterceptor - RESPONSE -  Method:GET, URI: /sboot-auto-prop-proposta-bff/v1/proposta/6af31d55ee83fd22dc20a79f/complemento, Path: /v1/proposta/6af31d55ee83fd22dc20a79f/complemento, Status:204  
+2026-11-10 15:20:09.956	15:20:09.956 [DEBUG] c.p.a.u.clients.AuthFeignInterceptor - Token Bearer eyJ... propagado - FeignClient  
+2026-11-10 15:20:09.956	15:20:09.956 [DEBUG] c.p.a.u.clients.AuthFeignInterceptor - Propagando token - FeignClient  
+2026-11-10 15:10:20.956	15:10:20.955 [INFO ] c.p.a.util.filter.RequestInterceptor - RESPONSE -  Method:GET, URI: /sboot-auto-prop-proposta-bff/v1/proposta/6af31d55ee83fd22dc20a79f/complemento, Path: /v1/proposta/6af31d55ee83fd22dc20a79f/complemento, Status:204  
+2026-11-10 15:10:20.935	15:10:20.935 [DEBUG] c.p.a.u.clients.AuthFeignInterceptor - Token Bearer eyJ... propagado - FeignClient  
+2026-11-10 15:10:20.935	15:10:20.935 [DEBUG] c.p.a.u.clients.AuthFeignInterceptor - Propagando token - FeignClient  
+2026-11-10 15:10:20.725	15:10:20.724 [INFO ] c.p.a.util.filter.RequestInterceptor - RESPONSE -  Method:GET, URI: /sboot-auto-prop-proposta-bff/v1/proposta/6af31d55ee83fd22dc20a79f/complemento, Path: /v1/proposta/6af31d55ee83fd22dc20a79f/complemento, Status:204  
+2026-11-10 15:10:20.692	15:10:20.692 [DEBUG] c.p.a.u.clients.AuthFeignInterceptor - Token Bearer eyJ... propagado - FeignClient  
+2026-11-10 15:10:20.692	15:10:20.692 [DEBUG] c.p.a.u.clients.AuthFeignInterceptor - Propagando token - FeignClient  
+2026-11-10 15:08:38.027	15:08:38.026 [INFO ] c.p.a.util.filter.RequestInterceptor - RESPONSE -  Method:GET, URI: /sboot-auto-prop-proposta-bff/v1/proposta/6af31d55ee83fd22dc20a79f/complemento, Path: /v1/proposta/6af31d55ee83fd22dc20a79f/complemento, Status:204  
+2026-11-10 15:08:38.002	15:08:38.002 [DEBUG] c.p.a.u.clients.AuthFeignInterceptor - Token Bearer eyJ... propagado - FeignClient  
+2026-11-10 15:08:38.002	15:08:38.002 [DEBUG] c.p.a.u.clients.AuthFeignInterceptor - Propagando token - FeignClient  
+2026-11-10 15:08:37.576	15:08:37.576 [INFO ] c.p.a.util.filter.RequestInterceptor - RESPONSE -  Method:GET, URI: /sboot-auto-prop-proposta-bff/v1/proposta/6af31d55ee83fd22dc20a79f/complemento, Path: /v1/proposta/6af31d55ee83fd22dc20a79f/complemento, Status:204  
+2026-11-10 15:08:37.545	15:08:37.545 [DEBUG] c.p.a.u.clients.AuthFeignInterceptor - Token Bearer eyJ... propagado - FeignClient  
+2026-11-10 15:08:37.545	15:08:37.545 [DEBUG] c.p.a.u.clients.AuthFeignInterceptor - Propagando token - FeignClient  
+2026-11-10 15:05:57.238	15:05:57.238 [INFO ] c.p.a.util.filter.RequestInterceptor - RESPONSE -  Method:GET, URI: /sboot-auto-prop-proposta-bff/v1/proposta/6af1de4c00b95a959e1d84c2/situacao, Path: /v1/proposta/6af1de4c00b95a959e1d84c2/situacao, Status:200  
+2026-11-10 15:05:57.222	15:05:57.221 [DEBUG] c.p.a.u.clients.AuthFeignInterceptor - Token Bearer eyJ... propagado - FeignClient  
+2026-11-10 15:05:57.222	15:05:57.221 [DEBUG] c.p.a.u.clients.AuthFeignInterceptor - Propagando token - FeignClient  
+2026-11-10 15:05:57.071	15:05:57.071 [INFO ] c.p.a.util.filter.RequestInterceptor - RESPONSE -  Method:GET, URI: /sboot-auto-prop-proposta-bff/v1/aceitacao/proposta/6af1de4c00b95a959e1d84c2, Path: /v1/aceitacao/proposta/6af1de4c00b95a959e1d84c2, Status:200  
+2026-11-10 15:05:57.063	15:05:57.063 [DEBUG] c.p.a.u.clients.AuthFeignInterceptor - Token Bearer eyJ... propagado - FeignClient  
+2026-11-10 15:05:57.063	15:05:57.062 [DEBUG] c.p.a.u.clients.AuthFeignInterceptor - Propagando token - FeignClient  
+2026-11-10 15:05:57.054	15:05:57.054 [DEBUG] c.p.a.u.clients.AuthFeignInterceptor - Token Bearer eyJ... propagado - FeignClient  
+2026-11-10 15:05:57.054	15:05:57.054 [DEBUG] c.p.a.u.clients.AuthFeignInterceptor - Propagando token - FeignClient  
+2026-11-10 15:05:57.037	15:05:57.037 [DEBUG] c.p.a.u.clients.AuthFeignInterceptor - Token Bearer eyJ... propagado - FeignClient  
+2026-11-10 15:05:57.037	15:05:57.037 [DEBUG] c.p.a.u.clients.AuthFeignInterceptor - Propagando token - FeignClient  
+2026-11-10 15:05:56.986	15:05:56.986 [DEBUG] c.p.a.u.clients.AuthFeignInterceptor - Token Bearer eyJ... propagado - FeignClient  
+2026-11-10 15:05:56.986	15:05:56.985 [DEBUG] c.p.a.u.clients.AuthFeignInterceptor - Propagando token - FeignClient  
+2026-11-10 15:05:56.840	15:05:56.840 [INFO ] c.p.a.util.filter.RequestInterceptor - RESPONSE -  Method:PUT, URI: /sboot-auto-prop-proposta-bff/v1/aceitacao/quebra-critica/proposta/6af1de4c00b95a959e1d84c2, Path: /v1/aceitacao/quebra-critica/proposta/6af1de4c00b95a959e1d84c2, Status:200  
+2026-11-10 15:05:56.839	15:05:56.839 [INFO ] c.p.p.p.b.c.AceitacaoController - API _criarAceitacaoPropostaDetalhe(..) quebra de critica feita!  
+2026-11-10 15:05:56.700	15:05:56.700 [DEBUG] c.p.a.u.clients.AuthFeignInterceptor - Token Bearer eyJ... propagado - FeignClient  
+2026-11-10 15:05:56.700	15:05:56.700 [DEBUG] c.p.a.u.clients.AuthFeignInterceptor - Propagando token - FeignClient  
+2026-11-10 15:05:56.700	15:05:56.699 [INFO ] c.p.p.p.b.c.AceitacaoController - API _criarAceitacaoPropostaDetalhe(..) codigoProposta=6af1de4c00b95a959e1d84c2  
+2026-11-10 15:05:40.442	15:05:40.442 [INFO ] c.p.a.util.filter.RequestInterceptor - RESPONSE -  Method:GET, URI: /sboot-auto-prop-proposta-bff/v1/proposta/6af1de4c00b95a959e1d84c2/situacao, Path: /v1/proposta/6af1de4c00b95a959e1d84c2/situacao, Status:200  
+2026-11-10 15:05:40.425	15:05:40.425 [DEBUG] c.p.a.u.clients.AuthFeignInterceptor - Token Bearer eyJ... propagado - FeignClient  
+2026-11-10 15:05:40.425	15:05:40.425 [DEBUG] c.p.a.u.clients.AuthFeignInterceptor - Propagando token - FeignClient  
+2026-11-10 15:05:40.269	15:05:40.269 [INFO ] c.p.a.util.filter.RequestInterceptor - RESPONSE -  Method:GET, URI: /sboot-auto-prop-proposta-bff/v1/aceitacao/proposta/6af1de4c00b95a959e1d84c2, Path: /v1/aceitacao/proposta/6af1de4c00b95a959e1d84c2, Status:200  
+2026-11-10 15:05:40.253	15:05:40.253 [DEBUG] c.p.a.u.clients.AuthFeignInterceptor - Token Bearer eyJ... propagado - FeignClient  
+2026-11-10 15:05:40.253	15:05:40.253 [DEBUG] c.p.a.u.clients.AuthFeignInterceptor - Propagando token - FeignClient  
+2026-11-10 15:05:40.237	15:05:40.237 [DEBUG] c.p.a.u.clients.AuthFeignInterceptor - Token Bearer eyJ... propagado - FeignClient  
+2026-11-10 15:05:40.237	15:05:40.237 [DEBUG] c.p.a.u.clients.AuthFeignInterceptor - Propagando token - FeignClient  
+2026-11-10 15:05:40.221	15:05:40.221 [DEBUG] c.p.a.u.clients.AuthFeignInterceptor - Token Bearer eyJ... propagado - FeignClient  
+2026-11-10 15:05:40.221	15:05:40.220 [DEBUG] c.p.a.u.clients.AuthFeignInterceptor - Propagando token - FeignClient  
+2026-11-10 15:05:40.177	15:05:40.177 [DEBUG] c.p.a.u.clients.AuthFeignInterceptor - Token Bearer eyJ... propagado - FeignClient  
+2026-11-10 15:05:40.177	15:05:40.177 [DEBUG] c.p.a.u.clients.AuthFeignInterceptor - Propagando token - FeignClient  
+2026-11-10 15:05:40.049	15:05:40.049 [INFO ] c.p.a.util.filter.RequestInterceptor - RESPONSE -  Method:GET, URI: /sboot-auto-prop-proposta-bff/v1/proposta/6af1de4c00b95a959e1d84c2/complemento, Path: /v1/proposta/6af1de4c00b95a959e1d84c2/complemento, Status:200  
+2026-11-10 15:05:40.030	15:05:40.030 [INFO ] c.p.a.util.filter.RequestInterceptor - RESPONSE -  Method:GET, URI: /sboot-auto-prop-proposta-bff/v1/proposta/6af1de4c00b95a959e1d84c2/situacao, Path: /v1/proposta/6af1de4c00b95a959e1d84c2/situacao, Status:200  
+2026-11-10 15:05:40.028	15:05:40.028 [INFO ] c.p.a.util.filter.RequestInterceptor - RESPONSE -  Method:POST, URI: /sboot-auto-prop-proposta-bff/v1/proposta/consulta-resumida, Path: /v1/proposta/consulta-resumida, Status:200  
+2026-11-10 15:05:39.999	15:05:39.999 [DEBUG] c.p.a.u.clients.AuthFeignInterceptor - Token Bearer eyJ... propagado - FeignClient  
+2026-11-10 15:05:39.999	15:05:39.999 [DEBUG] c.p.a.u.clients.AuthFeignInterceptor - Propagando token - FeignClient  
+2026-11-10 15:05:39.999	15:05:39.998 [DEBUG] c.p.a.u.clients.AuthFeignInterceptor - Token Bearer eyJ... propagado - FeignClient  
+2026-11-10 15:05:39.999	15:05:39.998 [DEBUG] c.p.a.u.clients.AuthFeignInterceptor - Propagando token - FeignClient  
+2026-11-10 15:05:39.999	15:05:39.997 [DEBUG] c.p.a.u.clients.AuthFeignInterceptor - Token Bearer eyJ... propagado - FeignClient  
+2026-11-10 15:05:39.999	15:05:39.997 [DEBUG] c.p.a.u.clients.AuthFeignInterceptor - Propagando token - FeignClient  
+2026-11-10 15:05:39.845	15:05:39.844 [INFO ] c.p.a.util.filter.RequestInterceptor - RESPONSE -  Method:GET, URI: /sboot-auto-prop-proposta-bff/v1/proposta/6af1de4c00b95a959e1d84c2/complemento, Path: /v1/proposta/6af1de4c00b95a959e1d84c2/complemento, Status:200  
+2026-11-10 15:05:39.409	15:05:39.409 [DEBUG] c.p.a.u.clients.AuthFeignInterceptor - Token Bearer eyJ... propagado - FeignClient  
+2026-11-10 15:05:39.409	15:05:39.409 [DEBUG] c.p.a.u.clients.AuthFeignInterceptor - Propagando token - FeignClient  
