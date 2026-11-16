@@ -1,0 +1,50 @@
+{
+  "_id": {
+    "$oid": "6afb1b74b0fcb2f121aeaa15"
+  },
+  "numero_cotacao": 123456,
+  "versao_cotacao": 2,
+  "numero_orcamento": 3,
+  "situacao": "APLICADA",
+  "codigo_motivo": 1,
+  "justificativa": "Ajuste comercial do premio informado",
+  "matricula_analista": "analista",
+  "data_informado": {
+    "$date": "2026-11-16T15:04:20.277Z"
+  },
+  "susep": "COL10J",
+  "itens": [
+    {
+      "numero_item": 1,
+      "codigo_cobertura": 2,
+      "nome": "Casco",
+      "valor_premio_tarifado": {
+        "$numberDecimal": "10.00"
+      },
+      "valor_premio_informado": {
+        "$numberDecimal": "9.50"
+      }
+    }
+  ],
+  "tipo": "PREMIO_INFORMADO",
+  "situacao_oferta": "ATIVA",
+  "matricula_liberador": "analista",
+  "data_movimento": {
+    "$date": "2026-11-16T15:04:20.277Z"
+  },
+  "premio_total_tarifado": {
+    "$numberDecimal": "10.00"
+  },
+  "premio_total_informado": {
+    "$numberDecimal": "9.50"
+  },
+  "data_criacao": {
+    "$date": "2026-11-16T15:04:20.390Z"
+  },
+  "data_alteracao": {
+    "$date": "2026-11-16T15:04:22.331Z"
+  },
+  "criado_por": "analista",
+  "alterado_por": "analista",
+  "_class": "com.porto.cota.premio.informado.dataprovider.mongodb.document.PremioInformadoDocument"
+}
