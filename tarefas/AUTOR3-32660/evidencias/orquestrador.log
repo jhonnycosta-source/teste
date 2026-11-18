@@ -1,0 +1,11 @@
+[2026-11-17T20:22:22.422Z] orquestrador iniciado
+[2026-11-17T20:23:45.940Z] mongo stoic_buck 88f6c5ad11a5 porta=65458
+[2026-11-17T20:23:47.743Z] mongo-express subindo em 8091 -> mongo 65458
+[2026-11-17T20:23:49.394Z] mongo pronto
+[2026-11-17T20:24:37.010Z] descarte RECALCULO detectado em stoic_buck; rabbit goofy_brahmagupta mgmt=65466
+[2026-11-17T20:24:39.947Z] print C:\Users\jhonnyscerni\Documents\workspace\softvaro\java\tarefas\AUTOR3-32660\evidencias\print-mongo-snapshot-descarte.png
+[2026-11-17T20:24:40.159Z] api rabbit-fila-apos-descarte.json status 200
+[2026-11-17T20:24:41.516Z] print C:\Users\jhonnyscerni\Documents\workspace\softvaro\java\tarefas\AUTOR3-32660\evidencias\print-mongo-colecao-premio-informado.png
+[2026-11-17T20:24:45.303Z] print C:\Users\jhonnyscerni\Documents\workspace\softvaro\java\tarefas\AUTOR3-32660\evidencias\print-rabbit-overview.png
+[2026-11-17T20:24:49.093Z] print C:\Users\jhonnyscerni\Documents\workspace\softvaro\java\tarefas\AUTOR3-32660\evidencias\print-rabbit-filas.png
+[2026-11-17T20:24:53.016Z] print C:\Users\jhonnyscerni\Documents\workspace\softvaro\java\tarefas\AUTOR3-32660\evidencias\print-rabbit-fila-descarte-recalculo.png

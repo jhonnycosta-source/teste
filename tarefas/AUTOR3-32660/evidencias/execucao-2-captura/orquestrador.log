@@ -1,0 +1,28 @@
+[2026-11-17T20:11:47.205Z] orquestrador iniciado
+[2026-11-17T20:18:30.083Z] mongo unruffled_swartz 45b8503c2daa porta=50063
+[2026-11-17T20:18:31.641Z] mongo-express subindo em 8091 -> mongo 50063
+[2026-11-17T20:18:33.151Z] mongo pronto
+[2026-11-17T20:20:23.324Z] descarte RECALCULO detectado em unruffled_swartz; rabbit hopeful_carson mgmt=62483
+[2026-11-17T20:20:23.356Z] ERRO prints mongo: browserType.launch: Executable doesn't exist at C:\Users\jhonnyscerni\AppData\Local\ms-playwright\chromium_headless_shell-1255\chrome-headless-shell-win64\chrome-headless-shell.exe
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     npx playwright install                                 ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+[2026-11-17T20:20:26.418Z] api rabbit-fila-apos-descarte.json status 200
+[2026-11-17T20:20:26.429Z] ERRO prints: browserType.launch: Executable doesn't exist at C:\Users\jhonnyscerni\AppData\Local\ms-playwright\chromium_headless_shell-1255\chrome-headless-shell-win64\chrome-headless-shell.exe
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     npx playwright install                                 ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+    at printsRabbit (C:\Users\jhonnyscerni\AppData\Local\Temp\claude\becf9917dd09c57d\1b8c63a3-cb8f-48d0-96d7-6dec294036fd\scratchpad\pw\orquestrador.js:22:34)
+    at Socket.<anonymous> (C:\Users\jhonnyscerni\AppData\Local\Temp\claude\becf9917dd09c57d\1b8c63a3-cb8f-48d0-96d7-6dec294036fd\scratchpad\pw\orquestrador.js:107:15)
+[2026-11-17T20:22:12.317Z] ERRO api final: fetch failed
+[2026-11-17T20:22:12.319Z] fim

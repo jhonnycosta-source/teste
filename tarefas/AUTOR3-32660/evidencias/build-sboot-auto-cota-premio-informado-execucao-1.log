@@ -1,0 +1,787 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------< com.porto.cota:sboot-auto-cota-premio-informado >-----------
+[INFO] Building sboot-auto-cota-premio-informado 1.0.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.5.0:clean (default-clean) @ sboot-auto-cota-premio-informado ---
+[INFO] Deleting C:\Users\jhonnyscerni\Documents\workspace\softvaro\java\sboot\sboot-auto-cota-premio-informado\target
+[INFO] 
+[INFO] --- antrun:3.2.0:run (parent-sboot-valida-variaveis) @ sboot-auto-cota-premio-informado ---
+[INFO] Skipping Antrun execution
+[INFO] 
+[INFO] --- jacoco:0.8.13:prepare-agent (prepare-agent) @ sboot-auto-cota-premio-informado ---
+[INFO] argLine set to -javaagent:C:\\home\\softvaro\\.m2\\Repositorio\\org\\jacoco\\org.jacoco.agent\\0.8.13\\org.jacoco.agent-0.8.13-runtime.jar=destfile=C:\\Users\\jhonnyscerni\\Documents\\workspace\\softvaro\\java\\sboot\\sboot-auto-cota-premio-informado\\target\\jacoco.exec,append=true,excludes=**/*_.class:**/samples/**:**/openapitools/**:**/openapi/**:**/autocontratos/**:**/generated/**:**/generated-sources/**:**/dataprovider/client/**/dto/**:**/integration/client/**/dto/**:**/mapper/*MapperImpl.class
+[INFO] 
+[INFO] --- git-commit-id:9.2.0:revision (default) @ sboot-auto-cota-premio-informado ---
+[INFO] dotGitDirectory 'C:\Users\jhonnyscerni\Documents\workspace\softvaro\java\sboot\sboot-auto-cota-premio-informado'
+[INFO] Collected git.commit.id.full with value 45b7bf091c9ccac92c330d9c8b1d88c5efc400c6
+[INFO] Collected git.commit.id.abbrev with value 45b7bf0
+[INFO] Collected git.build.time with value 2026-11-17T17:07:30-03:00
+[INFO] Collected git.build.version with value 1.0.0-SNAPSHOT
+[INFO] including property 'git.build.version' in results
+[INFO] including property 'git.commit.id.full' in results
+[INFO] including property 'git.commit.id.abbrev' in results
+[INFO] including property 'git.build.time' in results
+[INFO] Writing properties file [C:\Users\jhonnyscerni\Documents\workspace\softvaro\java\sboot\sboot-auto-cota-premio-informado\target\classes\git.properties] (for project sboot-auto-cota-premio-informado)...
+[INFO] 
+[INFO] --- git-commit-id:9.2.0:revision (parent-sboot-git-infos) @ sboot-auto-cota-premio-informado ---
+[INFO] dotGitDirectory 'C:\Users\jhonnyscerni\Documents\workspace\softvaro\java\sboot\sboot-auto-cota-premio-informado'
+[INFO] Collected git.commit.id.full with value 45b7bf091c9ccac92c330d9c8b1d88c5efc400c6
+[INFO] Collected git.commit.id.abbrev with value 45b7bf0
+[INFO] Collected git.build.time with value 2026-11-17T17:07:30-03:00
+[INFO] Collected git.build.version with value 1.0.0-SNAPSHOT
+[INFO] including property 'git.build.version' in results
+[INFO] including property 'git.commit.id.full' in results
+[INFO] including property 'git.commit.id.abbrev' in results
+[INFO] including property 'git.build.time' in results
+[INFO] Reading existing properties file [C:\Users\jhonnyscerni\Documents\workspace\softvaro\java\sboot\sboot-auto-cota-premio-informado\target\classes\git.properties] (for project sboot-auto-cota-premio-informado)...
+[INFO] Properties file [C:\Users\jhonnyscerni\Documents\workspace\softvaro\java\sboot\sboot-auto-cota-premio-informado\target\classes\git.properties] is up-to-date (for module sboot-auto-cota-premio-informado)...
+[INFO] 
+[INFO] --- dependency:3.10.0:unpack (parent-sboot-unpack-contratos) @ sboot-auto-cota-premio-informado ---
+[INFO] Skipping plugin execution
+[INFO] 
+[INFO] --- dependency:3.10.0:unpack (unpack-contratos) @ sboot-auto-cota-premio-informado ---
+[INFO] 
+[INFO] --- openapi-generator:7.4.0:generate (generate-premios-api) @ sboot-auto-cota-premio-informado ---
+[INFO] Generating with dryRun=false
+[INFO] Output directory (C:\Users\jhonnyscerni\Documents\workspace\softvaro\java\sboot\sboot-auto-cota-premio-informado\target\generated-sources\openapi) does not exist, or is inaccessible. No file (.openapi-generator-ignore) will be evaluated.
+[INFO] OpenAPI Generator: spring (server)
+[INFO] Generator 'spring' is considered stable.
+[INFO] ----------------------------------
+[INFO] Environment variable JAVA_POST_PROCESS_FILE not defined so the Java code may not be properly formatted. To define it, try 'export JAVA_POST_PROCESS_FILE="/usr/local/bin/clang-format -i"' (Linux/Mac)
+[INFO] NOTE: To enable file post-processing, 'enablePostProcessFile' must be set to `true` (--enable-post-process-file for CLI).
+[INFO] Invoker Package Name, originally not set, is now derived from api package name: com.porto.cota.premio.informado.entrypoint.controller.openapitools
+[INFO] Processing operation alterarPremio
+[INFO] Processing operation consultarPremioInformado
+[INFO] 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+[INFO] 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+[INFO] 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+[INFO] writing file C:\Users\jhonnyscerni\Documents\workspace\softvaro\java\sboot\sboot-auto-cota-premio-informado\target\generated-sources\openapi\src\main\java\com\porto\cota\premio\informado\entrypoint\controller\openapitools\dto\AlteracaoPremioRequest.java
+[INFO] writing file C:\Users\jhonnyscerni\Documents\workspace\softvaro\java\sboot\sboot-auto-cota-premio-informado\target\generated-sources\openapi\src\main\java\com\porto\cota\premio\informado\entrypoint\controller\openapitools\dto\AlteracaoPremioResponse.java
+[INFO] writing file C:\Users\jhonnyscerni\Documents\workspace\softvaro\java\sboot\sboot-auto-cota-premio-informado\target\generated-sources\openapi\src\main\java\com\porto\cota\premio\informado\entrypoint\controller\openapitools\dto\CoberturaPremioInformado.java
+[INFO] writing file C:\Users\jhonnyscerni\Documents\workspace\softvaro\java\sboot\sboot-auto-cota-premio-informado\target\generated-sources\openapi\src\main\java\com\porto\cota\premio\informado\entrypoint\controller\openapitools\dto\ConsultaPremioInformadoResponse.java
+[INFO] writing file C:\Users\jhonnyscerni\Documents\workspace\softvaro\java\sboot\sboot-auto-cota-premio-informado\target\generated-sources\openapi\src\main\java\com\porto\cota\premio\informado\entrypoint\controller\openapitools\dto\HistoricoPremioInformadoResponse.java
+[INFO] writing file C:\Users\jhonnyscerni\Documents\workspace\softvaro\java\sboot\sboot-auto-cota-premio-informado\target\generated-sources\openapi\src\main\java\com\porto\cota\premio\informado\entrypoint\controller\openapitools\dto\ItemConsultaPremioInformadoResponse.java
+[INFO] writing file C:\Users\jhonnyscerni\Documents\workspace\softvaro\java\sboot\sboot-auto-cota-premio-informado\target\generated-sources\openapi\src\main\java\com\porto\cota\premio\informado\entrypoint\controller\openapitools\dto\ItemPremioInformadoResponse.java
+[INFO] writing file C:\Users\jhonnyscerni\Documents\workspace\softvaro\java\sboot\sboot-auto-cota-premio-informado\target\generated-sources\openapi\src\main\java\com\porto\cota\premio\informado\entrypoint\controller\openapitools\dto\MotivoPremioInformado.java
+[INFO] 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+[INFO] writing file C:\Users\jhonnyscerni\Documents\workspace\softvaro\java\sboot\sboot-auto-cota-premio-informado\target\generated-sources\openapi\src\main\java\com\porto\cota\premio\informado\entrypoint\controller\openapitools\api\PremioInformadoApi.java
+[INFO] 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+[INFO] writing file C:\Users\jhonnyscerni\Documents\workspace\softvaro\java\sboot\sboot-auto-cota-premio-informado\target\generated-sources\openapi\src\main\java\com\porto\cota\premio\informado\entrypoint\controller\openapitools\api\PremiosApi.java
+[INFO] Skipping generation of Webhooks.
+[INFO] 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+[INFO] Skipping generation of supporting files.
+################################################################################
+# Thanks for using OpenAPI Generator.                                          #
+# Please consider donation to help us maintain this project ?                 #
+# https://opencollective.com/openapi_generator/donate                          #
+################################################################################
+[INFO] 
+[INFO] --- openapi-generator:7.4.0:generate (generate-oferta-recalculada-model) @ sboot-auto-cota-premio-informado ---
+[INFO] Generating with dryRun=false
+[INFO] No .openapi-generator-ignore file found.
+[INFO] OpenAPI Generator: spring (server)
+[INFO] Generator 'spring' is considered stable.
+[INFO] ----------------------------------
+[INFO] Environment variable JAVA_POST_PROCESS_FILE not defined so the Java code may not be properly formatted. To define it, try 'export JAVA_POST_PROCESS_FILE="/usr/local/bin/clang-format -i"' (Linux/Mac)
+[INFO] NOTE: To enable file post-processing, 'enablePostProcessFile' must be set to `true` (--enable-post-process-file for CLI).
+[INFO] Invoker Package Name, originally not set, is now derived from model package name: com.porto.cota.premio.informado.entrypoint.listener.openapitools
+[INFO] 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+[INFO] 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+[INFO] 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+[INFO] writing file C:\Users\jhonnyscerni\Documents\workspace\softvaro\java\sboot\sboot-auto-cota-premio-informado\target\generated-sources\openapi\src\main\java\com\porto\cota\premio\informado\entrypoint\listener\openapitools\dto\OfertaRecalculadaEvento.java
+[INFO] Skipping generation of APIs.
+[INFO] Skipping generation of Webhooks.
+[INFO] 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+[INFO] Skipping generation of supporting files.
+################################################################################
+# Thanks for using OpenAPI Generator.                                          #
+# Please consider donation to help us maintain this project ?                 #
+# https://opencollective.com/openapi_generator/donate                          #
+################################################################################
+[INFO] 
+[INFO] --- antrun:3.2.0:run (parent-sboot-copia-swagger) @ sboot-auto-cota-premio-informado ---
+[INFO] Skipping Antrun execution
+[INFO] 
+[INFO] --- resources:3.5.0:resources (default-resources) @ sboot-auto-cota-premio-informado ---
+[INFO] Copying 5 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.15.0:compile (default-compile) @ sboot-auto-cota-premio-informado ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 92 source files with javac [debug parameters release 21] to target\classes
+[INFO] 
+[INFO] --- resources:3.5.0:testResources (default-testResources) @ sboot-auto-cota-premio-informado ---
+[INFO] Copying 24 resources from src\test\resources to target\test-classes
+[INFO] 
+[INFO] --- compiler:3.15.0:testCompile (default-testCompile) @ sboot-auto-cota-premio-informado ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 45 source files with javac [debug parameters release 21] to target\test-classes
+[INFO] 
+[INFO] --- surefire:3.5.2:test (default-test) @ sboot-auto-cota-premio-informado ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running arch.com.porto.cota.premio.informado.ArchUnitTest
+17:08:06.357 [main] INFO com.tngtech.archunit.core.PluginLoader -- Detected Java version 21.0.7
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.747 s -- in arch.com.porto.cota.premio.informado.ArchUnitTest
+[INFO] Running unit.com.porto.cota.premio.informado.common.featuretoggle.FeatureToggleEnumTest
+Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build as described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org.mockito/org/mockito/Mockito.html#0.3
+WARNING: A Java agent has been loaded dynamically (C:\home\softvaro\.m2\Repositorio\net\bytebuddy\byte-buddy-agent\1.18.11\byte-buddy-agent-1.18.11.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+OpenJDK 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.620 s -- in unit.com.porto.cota.premio.informado.common.featuretoggle.FeatureToggleEnumTest
+[INFO] Running unit.com.porto.cota.premio.informado.common.security.PerfilAnalistaInternoEnumTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.040 s -- in unit.com.porto.cota.premio.informado.common.security.PerfilAnalistaInternoEnumTest
+[INFO] Running unit.com.porto.cota.premio.informado.common.security.PerfilUtilTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s -- in unit.com.porto.cota.premio.informado.common.security.PerfilUtilTest
+[INFO] Running unit.com.porto.cota.premio.informado.config.HttpClientConfigTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.057 s -- in unit.com.porto.cota.premio.informado.config.HttpClientConfigTest
+[INFO] Running unit.com.porto.cota.premio.informado.config.mongodb.ConvertersConfigTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s -- in unit.com.porto.cota.premio.informado.config.mongodb.ConvertersConfigTest
+[INFO] Running unit.com.porto.cota.premio.informado.config.mongodb.OffsetDateTimeProviderTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s -- in unit.com.porto.cota.premio.informado.config.mongodb.OffsetDateTimeProviderTest
+[INFO] Running unit.com.porto.cota.premio.informado.config.properties.AppPropertiesTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.010 s -- in unit.com.porto.cota.premio.informado.config.properties.AppPropertiesTest
+[INFO] Running unit.com.porto.cota.premio.informado.config.security.AccessServiceImplTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.086 s -- in unit.com.porto.cota.premio.informado.config.security.AccessServiceImplTest
+[INFO] Running unit.com.porto.cota.premio.informado.config.security.PortoSecurityXmlTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.109 s -- in unit.com.porto.cota.premio.informado.config.security.PortoSecurityXmlTest
+[INFO] Running unit.com.porto.cota.premio.informado.config.security.SecurityConfigTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.930 s -- in unit.com.porto.cota.premio.informado.config.security.SecurityConfigTest
+[INFO] Running unit.com.porto.cota.premio.informado.core.domain.TotalPremioTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.277 s -- in unit.com.porto.cota.premio.informado.core.domain.TotalPremioTest
+[INFO] Running unit.com.porto.cota.premio.informado.core.domain.VariacaoCoberturaTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s -- in unit.com.porto.cota.premio.informado.core.domain.VariacaoCoberturaTest
+[INFO] Running unit.com.porto.cota.premio.informado.core.domain.enums.MotivoDescarteEnumTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.030 s -- in unit.com.porto.cota.premio.informado.core.domain.enums.MotivoDescarteEnumTest
+[INFO] Running unit.com.porto.cota.premio.informado.core.domain.enums.MotivoPremioInformadoEnumTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s -- in unit.com.porto.cota.premio.informado.core.domain.enums.MotivoPremioInformadoEnumTest
+[INFO] Running unit.com.porto.cota.premio.informado.core.domain.enums.SituacaoAlteracaoEnumTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s -- in unit.com.porto.cota.premio.informado.core.domain.enums.SituacaoAlteracaoEnumTest
+[INFO] Running unit.com.porto.cota.premio.informado.core.domain.enums.SituacaoPremioInformadoEnumTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.020 s -- in unit.com.porto.cota.premio.informado.core.domain.enums.SituacaoPremioInformadoEnumTest
+[INFO] Running unit.com.porto.cota.premio.informado.core.domain.enums.TipoPremioInformadoEnumTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s -- in unit.com.porto.cota.premio.informado.core.domain.enums.TipoPremioInformadoEnumTest
+[INFO] Running unit.com.porto.cota.premio.informado.core.usecase.impl.AlterarPremioInformadoUseCaseImplTest
+17:08:27.173 [main] WARN com.porto.cota.premio.informado.core.usecase.impl.AlterarPremioInformadoUseCaseImpl -- Falha ao registrar variação de cobertura. A alteração aplicada segue.
+java.lang.IllegalStateException: statsd
+	at com.porto.cota.premio.informado.core.usecase.impl.AlterarPremioInformadoUseCaseImpl.registrarVariacoes(AlterarPremioInformadoUseCaseImpl.java:92)
+	at com.porto.cota.premio.informado.core.usecase.impl.AlterarPremioInformadoUseCaseImpl.alterar(AlterarPremioInformadoUseCaseImpl.java:82)
+	at unit.com.porto.cota.premio.informado.core.usecase.impl.AlterarPremioInformadoUseCaseImplTest.deveManterAplicadaQuandoRegistroDaVariacaoFalha(AlterarPremioInformadoUseCaseImplTest.java:210)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:701)
+	at org.junit.platform.commons.support.ReflectionSupport.invokeMethod(ReflectionSupport.java:502)
+	at org.junit.jupiter.engine.support.MethodReflectionUtils.invoke(MethodReflectionUtils.java:45)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:61)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:124)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:163)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:148)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:123)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:99)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:66)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:47)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:39)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invokeVoid(InterceptingExecutableInvoker.java:71)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$0(TestMethodTestDescriptor.java:219)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:215)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:157)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:70)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$2(NodeTestTask.java:176)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$1(NodeTestTask.java:166)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$0(NodeTestTask.java:164)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:163)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:116)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:42)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$2(NodeTestTask.java:180)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$1(NodeTestTask.java:166)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$0(NodeTestTask.java:164)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:163)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:116)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:42)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$2(NodeTestTask.java:180)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$1(NodeTestTask.java:166)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$0(NodeTestTask.java:164)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:163)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:116)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:36)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:52)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.executeEngine(EngineExecutionOrchestrator.java:246)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.failOrExecuteEngine(EngineExecutionOrchestrator.java:218)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:179)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:66)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:157)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:65)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:125)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:93)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:48)
+	at org.junit.platform.launcher.core.InterceptingLauncher.lambda$execute$0(InterceptingLauncher.java:41)
+	at org.junit.platform.launcher.core.ClasspathAlignmentCheckingLauncherInterceptor.intercept(ClasspathAlignmentCheckingLauncherInterceptor.java:25)
+	at org.junit.platform.launcher.core.InterceptingLauncher.execute(InterceptingLauncher.java:40)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:48)
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.164 s -- in unit.com.porto.cota.premio.informado.core.usecase.impl.AlterarPremioInformadoUseCaseImplTest
+[INFO] Running unit.com.porto.cota.premio.informado.core.usecase.impl.DescartarPremioInformadoPorRecalculoUseCaseImplTest
+17:08:27.334 [main] INFO com.porto.cota.premio.informado.core.usecase.impl.DescartarPremioInformadoPorRecalculoUseCaseImpl -- Nenhum premio informado ativo para descarte por recalculo. cotacao=123456, versao=2, orcamento=3
+17:08:27.347 [main] INFO com.porto.cota.premio.informado.core.usecase.impl.DescartarPremioInformadoPorRecalculoUseCaseImpl -- Nenhum premio informado ativo para descarte por recalculo. cotacao=123456, versao=2, orcamento=3
+17:08:27.364 [main] INFO com.porto.cota.premio.informado.core.usecase.impl.DescartarPremioInformadoPorRecalculoUseCaseImpl -- Nenhum premio informado ativo para descarte por recalculo. cotacao=123456, versao=2, orcamento=3
+17:08:27.387 [main] INFO com.porto.cota.premio.informado.core.usecase.impl.DescartarPremioInformadoPorRecalculoUseCaseImpl -- Premio informado descartado por recalculo. id=id-ativo, cotacao=123456, versao=2, orcamento=3
+17:08:27.405 [main] INFO com.porto.cota.premio.informado.core.usecase.impl.DescartarPremioInformadoPorRecalculoUseCaseImpl -- Premio informado descartado por recalculo. id=id-ativo-1, cotacao=123456, versao=2, orcamento=3
+17:08:27.405 [main] INFO com.porto.cota.premio.informado.core.usecase.impl.DescartarPremioInformadoPorRecalculoUseCaseImpl -- Premio informado descartado por recalculo. id=id-ativo-2, cotacao=123456, versao=2, orcamento=3
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.192 s -- in unit.com.porto.cota.premio.informado.core.usecase.impl.DescartarPremioInformadoPorRecalculoUseCaseImplTest
+[INFO] Running unit.com.porto.cota.premio.informado.core.usecase.mapper.AlteracaoPremioMapperTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s -- in unit.com.porto.cota.premio.informado.core.usecase.mapper.AlteracaoPremioMapperTest
+[INFO] Running unit.com.porto.cota.premio.informado.dataprovider.client.impl.AplicaPremioCotacaoImplTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.424 s -- in unit.com.porto.cota.premio.informado.dataprovider.client.impl.AplicaPremioCotacaoImplTest
+[INFO] Running unit.com.porto.cota.premio.informado.dataprovider.client.mapper.AlteracaoPremioCotacaoMapperTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s -- in unit.com.porto.cota.premio.informado.dataprovider.client.mapper.AlteracaoPremioCotacaoMapperTest
+[INFO] Running unit.com.porto.cota.premio.informado.dataprovider.mongodb.impl.AtualizaPremioInformadoImplTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.448 s -- in unit.com.porto.cota.premio.informado.dataprovider.mongodb.impl.AtualizaPremioInformadoImplTest
+[INFO] Running unit.com.porto.cota.premio.informado.dataprovider.mongodb.impl.ConsultaPremioInformadoImplTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.077 s -- in unit.com.porto.cota.premio.informado.dataprovider.mongodb.impl.ConsultaPremioInformadoImplTest
+[INFO] Running unit.com.porto.cota.premio.informado.dataprovider.mongodb.impl.RemovePremioInformadoImplTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s -- in unit.com.porto.cota.premio.informado.dataprovider.mongodb.impl.RemovePremioInformadoImplTest
+[INFO] Running unit.com.porto.cota.premio.informado.dataprovider.mongodb.impl.SalvaPremioInformadoImplTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.089 s -- in unit.com.porto.cota.premio.informado.dataprovider.mongodb.impl.SalvaPremioInformadoImplTest
+[INFO] Running unit.com.porto.cota.premio.informado.dataprovider.mongodb.mapper.PremioInformadoDocumentMapperTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s -- in unit.com.porto.cota.premio.informado.dataprovider.mongodb.mapper.PremioInformadoDocumentMapperTest
+[INFO] Running unit.com.porto.cota.premio.informado.dataprovider.statsd.impl.RegistraVariacaoCoberturaImplTest
+17:08:28.963 [main] ERROR com.porto.cota.premio.informado.dataprovider.statsd.impl.RegistraVariacaoCoberturaImpl -- Falha ao registrar métrica de variação no Datadog.
+java.lang.IllegalStateException: udp
+	at com.porto.cota.premio.informado.dataprovider.statsd.impl.RegistraVariacaoCoberturaImpl.registrar(RegistraVariacaoCoberturaImpl.java:25)
+	at unit.com.porto.cota.premio.informado.dataprovider.statsd.impl.RegistraVariacaoCoberturaImplTest.lambda$deveIsolarFalhaDoCliente$0(RegistraVariacaoCoberturaImplTest.java:44)
+	at org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:52)
+	at org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:39)
+	at org.junit.jupiter.api.Assertions.assertDoesNotThrow(Assertions.java:3295)
+	at unit.com.porto.cota.premio.informado.dataprovider.statsd.impl.RegistraVariacaoCoberturaImplTest.deveIsolarFalhaDoCliente(RegistraVariacaoCoberturaImplTest.java:44)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:701)
+	at org.junit.platform.commons.support.ReflectionSupport.invokeMethod(ReflectionSupport.java:502)
+	at org.junit.jupiter.engine.support.MethodReflectionUtils.invoke(MethodReflectionUtils.java:45)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:61)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:124)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:163)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:148)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:123)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:99)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:66)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:47)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:39)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invokeVoid(InterceptingExecutableInvoker.java:71)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$0(TestMethodTestDescriptor.java:219)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:215)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:157)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:70)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$2(NodeTestTask.java:176)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$1(NodeTestTask.java:166)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$0(NodeTestTask.java:164)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:163)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:116)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:42)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$2(NodeTestTask.java:180)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$1(NodeTestTask.java:166)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$0(NodeTestTask.java:164)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:163)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:116)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:42)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$2(NodeTestTask.java:180)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$1(NodeTestTask.java:166)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$0(NodeTestTask.java:164)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:163)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:116)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:36)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:52)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.executeEngine(EngineExecutionOrchestrator.java:246)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.failOrExecuteEngine(EngineExecutionOrchestrator.java:218)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:179)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:66)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:157)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:65)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:125)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:93)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:48)
+	at org.junit.platform.launcher.core.InterceptingLauncher.lambda$execute$0(InterceptingLauncher.java:41)
+	at org.junit.platform.launcher.core.ClasspathAlignmentCheckingLauncherInterceptor.intercept(ClasspathAlignmentCheckingLauncherInterceptor.java:25)
+	at org.junit.platform.launcher.core.InterceptingLauncher.execute(InterceptingLauncher.java:40)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:48)
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.268 s -- in unit.com.porto.cota.premio.informado.dataprovider.statsd.impl.RegistraVariacaoCoberturaImplTest
+[INFO] Running unit.com.porto.cota.premio.informado.entrypoint.controller.PremiosControllerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.372 s -- in unit.com.porto.cota.premio.informado.entrypoint.controller.PremiosControllerTest
+[INFO] Running unit.com.porto.cota.premio.informado.entrypoint.controller.UsuarioAutenticadoTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.109 s -- in unit.com.porto.cota.premio.informado.entrypoint.controller.UsuarioAutenticadoTest
+[INFO] Running unit.com.porto.cota.premio.informado.entrypoint.controller.mapper.AlteracaoPremioResponseMapperTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s -- in unit.com.porto.cota.premio.informado.entrypoint.controller.mapper.AlteracaoPremioResponseMapperTest
+[INFO] Running unit.com.porto.cota.premio.informado.entrypoint.controller.mapper.AlterarPremioInformadoDtoMapperTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.020 s -- in unit.com.porto.cota.premio.informado.entrypoint.controller.mapper.AlterarPremioInformadoDtoMapperTest
+[INFO] Running unit.com.porto.cota.premio.informado.entrypoint.listener.DescarteRecalculoListenerTest
+17:08:29.704 [main] WARN com.porto.cota.premio.informado.entrypoint.listener.DescarteRecalculoListener -- Evento de recalculo de oferta ignorado por dados obrigatorios ausentes: null
+17:08:29.720 [main] WARN com.porto.cota.premio.informado.entrypoint.listener.DescarteRecalculoListener -- Evento de recalculo de oferta ignorado por dados obrigatorios ausentes: class OfertaRecalculadaEvento {
+    tipo: OFERTA_RECALCULADA
+    numeroCotacao: null
+    versaoCotacao: 2
+    numeroOrcamento: 3
+    matricula: F0123456
+    perfil: ANALISTA_INTERNO
+    dataHoraRecalculo: null
+}
+17:08:29.732 [main] WARN com.porto.cota.premio.informado.entrypoint.listener.DescarteRecalculoListener -- Evento de recalculo de oferta ignorado por dados obrigatorios ausentes: class OfertaRecalculadaEvento {
+    tipo: OFERTA_RECALCULADA
+    numeroCotacao: 123456
+    versaoCotacao: null
+    numeroOrcamento: 3
+    matricula: F0123456
+    perfil: ANALISTA_INTERNO
+    dataHoraRecalculo: null
+}
+17:08:29.741 [main] WARN com.porto.cota.premio.informado.entrypoint.listener.DescarteRecalculoListener -- Evento de recalculo de oferta ignorado por dados obrigatorios ausentes: class OfertaRecalculadaEvento {
+    tipo: OFERTA_RECALCULADA
+    numeroCotacao: 123456
+    versaoCotacao: 2
+    numeroOrcamento: null
+    matricula: F0123456
+    perfil: ANALISTA_INTERNO
+    dataHoraRecalculo: null
+}
+17:08:29.761 [main] WARN com.porto.cota.premio.informado.entrypoint.listener.DescarteRecalculoListener -- Evento de recalculo de oferta ignorado por dados obrigatorios ausentes: class OfertaRecalculadaEvento {
+    tipo: OFERTA_RECALCULADA
+    numeroCotacao: 123456
+    versaoCotacao: 2
+    numeroOrcamento: 3
+    matricula: null
+    perfil: ANALISTA_INTERNO
+    dataHoraRecalculo: null
+}
+17:08:29.780 [main] WARN com.porto.cota.premio.informado.entrypoint.listener.DescarteRecalculoListener -- Evento de recalculo de oferta ignorado por dados obrigatorios ausentes: class OfertaRecalculadaEvento {
+    tipo: OFERTA_RECALCULADA
+    numeroCotacao: 123456
+    versaoCotacao: 2
+    numeroOrcamento: 3
+    matricula: F0123456
+    perfil: null
+    dataHoraRecalculo: null
+}
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.258 s -- in unit.com.porto.cota.premio.informado.entrypoint.listener.DescarteRecalculoListenerTest
+[INFO] Running unit.com.porto.cota.premio.informado.entrypoint.listener.mapper.DescarteRecalculoDtoMapperTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s -- in unit.com.porto.cota.premio.informado.entrypoint.listener.mapper.DescarteRecalculoDtoMapperTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 108, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- jacoco:0.8.13:report (unit-test report) @ sboot-auto-cota-premio-informado ---
+[INFO] Loading execution data file C:\Users\jhonnyscerni\Documents\workspace\softvaro\java\sboot\sboot-auto-cota-premio-informado\target\jacoco.exec
+[INFO] Analyzed bundle 'sboot-auto-cota-premio-informado' with 63 classes
+[INFO] 
+[INFO] --- jar:3.5.1:jar (default-jar) @ sboot-auto-cota-premio-informado ---
+[INFO] Building jar: C:\Users\jhonnyscerni\Documents\workspace\softvaro\java\sboot\sboot-auto-cota-premio-informado\target\sboot-auto-cota-premio-informado-1.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- spring-boot:4.1.1:repackage (repackage) @ sboot-auto-cota-premio-informado ---
+[INFO] Replacing main artifact C:\Users\jhonnyscerni\Documents\workspace\softvaro\java\sboot\sboot-auto-cota-premio-informado\target\sboot-auto-cota-premio-informado-1.0.0-SNAPSHOT.jar with repackaged archive, adding nested dependencies in BOOT-INF/.
+[INFO] The original artifact has been renamed to C:\Users\jhonnyscerni\Documents\workspace\softvaro\java\sboot\sboot-auto-cota-premio-informado\target\sboot-auto-cota-premio-informado-1.0.0-SNAPSHOT.jar.original
+[INFO] 
+[INFO] --- jacoco:0.8.13:report (jacoco-site) @ sboot-auto-cota-premio-informado ---
+[INFO] Loading execution data file C:\Users\jhonnyscerni\Documents\workspace\softvaro\java\sboot\sboot-auto-cota-premio-informado\target\jacoco.exec
+[INFO] Analyzed bundle 'sboot-auto-cota-premio-informado' with 63 classes
+[INFO] 
+[INFO] --- failsafe:3.5.6:integration-test (default) @ sboot-auto-cota-premio-informado ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running functional.com.porto.cota.premio.informado.entrypoint.controller.PremioInformadoGetIT
+17:08:44.743 [main] INFO org.testcontainers.images.PullPolicy -- Image pull policy will be performed by: DefaultPullPolicy()
+17:08:44.762 [main] INFO org.testcontainers.utility.ImageNameSubstitutor -- Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+17:08:45.066 [main] INFO org.springframework.boot.devtools.restart.RestartApplicationListener -- Restart disabled due to context in which it is running
+  ____            _
+ |  _ \ ___  _ __| |_ ___
+ | |_) / _ \| '__| __/ _ \
+ |  __/ (_) | |  | || (_) |
+ |_|   \___/|_|   \__\___/
+
+-------------------------------------------------------------------------------
+  Aplicacao: sboot-auto-cota-premio-informado
+Spring Boot: 4.1.1
+      Porta: 0
+     Perfil: testepipeline
+   Contexto: /sboot-auto-cota-premio-informado
+-------------------------------------------------------------------------------
+
+17:08:46.991 [INFO ] o.testcontainers.DockerClientFactory - Testcontainers version: 2.0.5  
+17:08:48.891 [INFO ] o.t.d.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first  
+17:08:48.942 [INFO ] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 9.1.3.Final  
+17:08:51.264 [INFO ] o.t.d.DockerClientProviderStrategy - Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)  
+17:08:51.268 [INFO ] o.testcontainers.DockerClientFactory - Docker host IP address is localhost  
+17:08:51.316 [INFO ] o.testcontainers.DockerClientFactory - Connected to docker: 
+  Server Version: 28.1.1
+  API Version: 1.49
+  Operating System: Docker Desktop (containerized)
+  Total Memory: 15838 MB
+  Labels: 
+    com.docker.desktop.address=npipe://\\.\pipe\docker_cli  
+17:08:51.322 [WARN ] o.t.utility.ResourceReaper - 
+********************************************************************************
+Ryuk has been disabled. This can cause unexpected behavior in your environment.
+********************************************************************************  
+17:08:51.336 [INFO ] o.testcontainers.DockerClientFactory - Checking the system...  
+17:08:51.338 [INFO ] o.testcontainers.DockerClientFactory - ?? Docker server version should be at least 1.6.0  
+17:08:53.350 [INFO ] tc.mongo:7.0 - Creating container for image: mongo:7.0  
+17:08:53.623 [INFO ] o.t.utility.RegistryAuthLocator - Credential helper/store (docker-credential-desktop) does not have credentials for https://index.docker.io/v1/  
+17:08:54.369 [INFO ] tc.mongo:7.0 - Container mongo:7.0 is starting: 852ad59e06a63b19a1f7b41f6cfadce0d341582785e1a1257459b85cc18a7f5e  
+17:08:59.485 [INFO ] tc.mongo:7.0 - Container mongo:7.0 started in PT6.1352991S  
+17:09:02.385 [INFO ] c.p.e.c.t.c.BaseInitializer$Initializer - Charset atual do sistema: UTF-8.  
+17:09:02.385 [INFO ] c.p.e.c.t.c.BaseInitializer$Initializer - Configurando padrões de data e locale.  
+17:09:02.406 [INFO ] c.p.e.c.t.c.BaseInitializer$Initializer - Locale atual do sistema: português (Brasil).  
+17:09:02.418 [INFO ] c.p.e.c.t.c.BaseInitializer$Initializer - TimeZone atual do sistema: Horário Padrão de Brasília.  
+17:09:02.443 [INFO ] f.c.p.c.p.i.e.c.PremioInformadoGetIT - Starting PremioInformadoGetIT using Java 21.0.7 with PID 28804 (started by jhonnyscerni in C:\Users\jhonnyscerni\Documents\workspace\softvaro\java\sboot\sboot-auto-cota-premio-informado)  
+17:09:02.445 [INFO ] f.c.p.c.p.i.e.c.PremioInformadoGetIT - The following 1 profile is active: "testepipeline"  
+17:09:08.229 [INFO ] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.  
+17:09:09.012 [INFO ] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 741 ms. Found 1 MongoDB repository interface.  
+17:09:10.476 [INFO ] o.s.cloud.context.scope.GenericScope - BeanFactory id=1da65b41-3727-3085-b396-7e7df51f7a9d  
+Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build as described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org.mockito/org/mockito/Mockito.html#0.3
+WARNING: A Java agent has been loaded dynamically (C:\home\softvaro\.m2\Repositorio\net\bytebuddy\byte-buddy-agent\1.18.11\byte-buddy-agent-1.18.11.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+OpenJDK 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
+17:09:15.623 [INFO ] o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 0 (http)  
+17:09:15.688 [INFO ] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-auto-1"]  
+17:09:15.695 [INFO ] o.a.catalina.core.StandardService - Starting service [Tomcat]  
+17:09:15.696 [INFO ] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.27]  
+17:09:16.166 [INFO ] o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 12883 ms  
+17:09:21.118 [INFO ] c.p.c.p.i.c.w.e.ApiExceptionHandler - ApiExceptionHandler inicializado.  
+17:09:22.281 [INFO ] org.mongodb.driver.client - MongoClient with metadata {"driver": {"name": "mongo-java-driver|spring-boot|sync", "version": "5.14.0"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Azul Systems, Inc./21.0.7+6-LTS"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, maxAdaptiveRetries=null, enableOverloadRetargeting=false, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, commandListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsCommandListener@639831d4], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@4a630349, com.mongodb.Jep395RecordCodecProvider@70d5c532, com.mongodb.KotlinCodecProvider@719de9b6, EnumCodecProvider{}]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:62403], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=<hidden>, password=<hidden>}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=<hidden>, password=<hidden>}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsConnectionPoolListener@5ad1e6e2], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverMonitoringMode=AUTO, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=UNSPECIFIED, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null, timeoutMS=null}  
+17:09:22.335 [INFO ] org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:62403, type=REPLICA_SET_PRIMARY, cryptd=false, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=21, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=107027399, minRoundTripTimeNanos=0, setName='docker-rs', canonicalAddress=852ad59e06a6:27017, hosts=[852ad59e06a6:27017], passives=[], arbiters=[], primary='852ad59e06a6:27017', tagSet=TagSet{[]}, electionId=7fffffff0000000000000001, setVersion=1, topologyVersion=TopologyVersion{processId=6afcb45a7294eaeeca0c5f64, counter=6}, lastWriteDate=Tue Nov 17 17:09:21 BRT 2026, lastUpdateTimeNanos=557575460206800}  
+17:09:25.752 [INFO ] c.p.c.p.i.config.DatadogStatsdConfig - StatsD DESATIVADO.  
+17:09:27.716 [INFO ] c.p.arqt.util.filter.SecurityConfig - Foram liberadas 11 rotas  
+17:09:27.790 [INFO ] c.p.arqt.util.filter.SecurityConfig - Claim de autorizacao roles  
+17:09:30.967 [INFO ] o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'  
+17:09:31.241 [INFO ] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-auto-1"]  
+17:09:31.315 [INFO ] o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 50411 (http) with context path '/sboot-auto-cota-premio-informado'  
+17:09:31.427 [INFO ] f.c.p.c.p.i.e.c.PremioInformadoGetIT - Started PremioInformadoGetIT in 46.441 seconds (process running for 56.093)  
+17:09:31.689 [WARN ] o.s.c.events.SpringDocAppInitializer - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'  
+17:09:31.691 [WARN ] o.s.c.events.SpringDocAppInitializer - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'  
+17:09:31.814 [INFO ] f.c.p.c.p.i.e.c.PremioInformadoGetIT - Container web executando na porta 50411  
+17:09:36.131 [INFO ] o.a.c.c.C.[.[.[/sboot-auto-cota-premio-informado] - Initializing Spring DispatcherServlet 'dispatcherServlet'  
+17:09:36.131 [INFO ] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'  
+17:09:36.140 [INFO ] o.s.web.servlet.DispatcherServlet - Completed initialization in 7 ms  
+17:09:36.840 [INFO ] c.p.a.util.filter.RequestInterceptor - RESPONSE -  Method:GET, URI: /sboot-auto-cota-premio-informado/v1/ofertas/123456-2-3/premio-informado, Path: /v1/ofertas/123456-2-3/premio-informado, Status:200 trace_id 6afcb480bf02042cf0b60e408716ea80 span_id d0fc1333bacd602d 
+17:09:37.731 [INFO ] c.p.a.util.filter.RequestInterceptor - RESPONSE -  Method:GET, URI: /sboot-auto-cota-premio-informado/v1/ofertas/123456-2-3/premio-informado, Path: /v1/ofertas/123456-2-3/premio-informado, Status:200 trace_id 6afcb481f1dce2fe6070b699afaf3a03 span_id 469d9c9b04819971 
+17:09:37.904 [INFO ] c.p.a.util.filter.RequestInterceptor - RESPONSE -  Method:GET, URI: /sboot-auto-cota-premio-informado/v1/ofertas/123456-2-3/premio-informado, Path: /v1/ofertas/123456-2-3/premio-informado, Status:200 trace_id 6afcb4810b537a9c49a8beed2668b563 span_id 4ca02c6d2a6d2cc1 
+17:09:37.981 [INFO ] c.p.a.util.filter.RequestInterceptor - RESPONSE -  Method:GET, URI: /sboot-auto-cota-premio-informado/v1/ofertas/123456-2-3/premio-informado, Path: /v1/ofertas/123456-2-3/premio-informado, Status:204 trace_id 6afcb4819dde805ff40a312f42bdc270 span_id dd5a0a36818b1ad0 
+17:09:38.183 [INFO ] c.p.a.util.filter.RequestInterceptor - RESPONSE -  Method:GET, URI: /sboot-auto-cota-premio-informado/v1/ofertas/123456-2-3/premio-informado, Path: /v1/ofertas/123456-2-3/premio-informado, Status:204 trace_id 6afcb4827b94e08f7eb4abc5c7ea28a6 span_id 1ce462df3c345050 
+17:09:38.291 [INFO ] c.p.a.util.filter.RequestInterceptor - RESPONSE -  Method:GET, URI: /sboot-auto-cota-premio-informado/v1/ofertas/123456-2-3/premio-informado, Path: /v1/ofertas/123456-2-3/premio-informado, Status:204 trace_id 6afcb482e04db8d8f2545fd6257f94fc span_id cfddd3d15e2b5aff 
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 56.96 s -- in functional.com.porto.cota.premio.informado.entrypoint.controller.PremioInformadoGetIT
+[INFO] Running functional.com.porto.cota.premio.informado.entrypoint.controller.PremioInformadoToggleOffIT
+17:09:38.575 [INFO ] o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running  
+  ____            _
+ |  _ \ ___  _ __| |_ ___
+ | |_) / _ \| '__| __/ _ \
+ |  __/ (_) | |  | || (_) |
+ |_|   \___/|_|   \__\___/
+
+-------------------------------------------------------------------------------
+  Aplicacao: sboot-auto-cota-premio-informado
+Spring Boot: 4.1.1
+      Porta: 0
+     Perfil: testepipeline
+   Contexto: /sboot-auto-cota-premio-informado
+-------------------------------------------------------------------------------
+
+17:09:38.722 [INFO ] c.p.e.c.t.c.BaseInitializer$Initializer - Charset atual do sistema: UTF-8.  
+17:09:38.723 [INFO ] c.p.e.c.t.c.BaseInitializer$Initializer - Configurando padrões de data e locale.  
+17:09:38.723 [INFO ] c.p.e.c.t.c.BaseInitializer$Initializer - Locale atual do sistema: português (Brasil).  
+17:09:38.723 [INFO ] c.p.e.c.t.c.BaseInitializer$Initializer - TimeZone atual do sistema: Horário Padrão de Brasília.  
+17:09:38.730 [INFO ] f.c.p.c.p.i.e.c.PremioInformadoToggleOffIT - Starting PremioInformadoToggleOffIT using Java 21.0.7 with PID 28804 (started by jhonnyscerni in C:\Users\jhonnyscerni\Documents\workspace\softvaro\java\sboot\sboot-auto-cota-premio-informado)  
+17:09:38.730 [INFO ] f.c.p.c.p.i.e.c.PremioInformadoToggleOffIT - The following 1 profile is active: "testepipeline"  
+17:09:39.651 [INFO ] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.  
+17:09:39.717 [INFO ] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 61 ms. Found 1 MongoDB repository interface.  
+17:09:39.875 [INFO ] o.s.cloud.context.scope.GenericScope - BeanFactory id=1da65b41-3727-3085-b396-7e7df51f7a9d  
+17:09:39.996 [INFO ] o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 0 (http)  
+17:09:39.998 [INFO ] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-auto-2"]  
+17:09:39.998 [INFO ] o.a.catalina.core.StandardService - Starting service [Tomcat]  
+17:09:40.000 [INFO ] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.27]  
+17:09:40.162 [INFO ] o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1429 ms  
+17:09:40.416 [INFO ] c.p.c.p.i.c.w.e.ApiExceptionHandler - ApiExceptionHandler inicializado.  
+17:09:40.443 [INFO ] org.mongodb.driver.client - MongoClient with metadata {"driver": {"name": "mongo-java-driver|spring-boot|sync", "version": "5.14.0"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Azul Systems, Inc./21.0.7+6-LTS"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, maxAdaptiveRetries=null, enableOverloadRetargeting=false, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, commandListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsCommandListener@6a8d8dd7], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@4a630349, com.mongodb.Jep395RecordCodecProvider@70d5c532, com.mongodb.KotlinCodecProvider@719de9b6, EnumCodecProvider{}]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:62403], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=<hidden>, password=<hidden>}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=<hidden>, password=<hidden>}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsConnectionPoolListener@18fbdc18], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverMonitoringMode=AUTO, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=UNSPECIFIED, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null, timeoutMS=null}  
+17:09:40.455 [INFO ] org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:62403, type=REPLICA_SET_PRIMARY, cryptd=false, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=21, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=9509600, minRoundTripTimeNanos=0, setName='docker-rs', canonicalAddress=852ad59e06a6:27017, hosts=[852ad59e06a6:27017], passives=[], arbiters=[], primary='852ad59e06a6:27017', tagSet=TagSet{[]}, electionId=7fffffff0000000000000001, setVersion=1, topologyVersion=TopologyVersion{processId=6afcb45a7294eaeeca0c5f64, counter=6}, lastWriteDate=Tue Nov 17 17:09:38 BRT 2026, lastUpdateTimeNanos=557593596992700}  
+17:09:40.801 [WARN ] o.s.c.o.FeignClientFactoryBean - FeignClient with contextId 'feignClientCotacaoApp' is being initialized more than once. Ensure the Client bean is Singleton scoped to avoid connection pool exhaustion.  
+17:09:40.807 [INFO ] c.p.c.p.i.config.DatadogStatsdConfig - StatsD DESATIVADO.  
+17:09:41.207 [INFO ] c.p.arqt.util.filter.SecurityConfig - Foram liberadas 11 rotas  
+17:09:41.218 [INFO ] c.p.arqt.util.filter.SecurityConfig - Claim de autorizacao roles  
+17:09:41.675 [INFO ] o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'  
+17:09:41.696 [INFO ] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-auto-2"]  
+17:09:41.703 [INFO ] o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 50425 (http) with context path '/sboot-auto-cota-premio-informado'  
+17:09:41.751 [INFO ] f.c.p.c.p.i.e.c.PremioInformadoToggleOffIT - Started PremioInformadoToggleOffIT in 3.177 seconds (process running for 66.417)  
+17:09:41.752 [WARN ] o.s.c.events.SpringDocAppInitializer - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'  
+17:09:41.753 [WARN ] o.s.c.events.SpringDocAppInitializer - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'  
+17:09:41.757 [INFO ] f.c.p.c.p.i.e.c.PremioInformadoToggleOffIT - Container web executando na porta 50425  
+17:09:41.791 [INFO ] o.a.c.c.C.[.[.[/sboot-auto-cota-premio-informado] - Initializing Spring DispatcherServlet 'dispatcherServlet'  
+17:09:41.791 [INFO ] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'  
+17:09:41.794 [INFO ] o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms  
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.312 s -- in functional.com.porto.cota.premio.informado.entrypoint.controller.PremioInformadoToggleOffIT
+[INFO] Running functional.com.porto.cota.premio.informado.entrypoint.controller.PremiosPutIT
+17:09:41.905 [INFO ] o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running  
+  ____            _
+ |  _ \ ___  _ __| |_ ___
+ | |_) / _ \| '__| __/ _ \
+ |  __/ (_) | |  | || (_) |
+ |_|   \___/|_|   \__\___/
+
+-------------------------------------------------------------------------------
+  Aplicacao: sboot-auto-cota-premio-informado
+Spring Boot: 4.1.1
+      Porta: 0
+     Perfil: testepipeline
+   Contexto: /sboot-auto-cota-premio-informado
+-------------------------------------------------------------------------------
+
+17:09:41.994 [INFO ] org.wiremock.spring.internal.Store - Resolving store from context: application  
+17:09:42.090 [INFO ] c.w.s.i.WireMockServerCreator cotacao - Looking for mocks in directory wiremock...   
+17:09:42.090 [INFO ] c.w.s.i.WireMockServerCreator cotacao - Looking for mocks in directory stubs...   
+17:09:42.090 [INFO ] c.w.s.i.WireMockServerCreator cotacao - Looking for mocks in directory mappings...   
+17:09:42.090 [INFO ] c.w.s.i.WireMockServerCreator cotacao - Looking for mocks in directory src\test\resources\wiremock...   
+17:09:42.091 [INFO ] c.w.s.i.WireMockServerCreator cotacao - Looking for mocks in directory src\test\resources\stubs...   
+17:09:42.091 [INFO ] c.w.s.i.WireMockServerCreator cotacao - Looking for mocks in directory src\test\resources\mappings...   
+17:09:42.091 [INFO ] c.w.s.i.WireMockServerCreator cotacao - Looking for mocks in directory src\integtest\resources\wiremock...   
+17:09:42.091 [INFO ] c.w.s.i.WireMockServerCreator cotacao - Looking for mocks in directory src\integtest\resources\stubs...   
+17:09:42.091 [INFO ] c.w.s.i.WireMockServerCreator cotacao - Looking for mocks in directory src\integtest\resources\mappings...   
+17:09:42.092 [INFO ] c.w.s.i.WireMockServerCreator cotacao - No mocks found under directory  
+17:09:42.098 [INFO ] c.w.s.i.WireMockServerCreator cotacao - Configuring WireMockServer with name 'cotacao' on HTTP port: 0 and HTTPS port: -1  
+17:09:43.435 [INFO ] WireMock.cotacao - Using HTTP server impl: Jetty12HttpServer  
+17:09:43.510 [INFO ] org.eclipse.jetty.server.Server - jetty-12.1.14; built: 2026-10-02T05:48:05.032Z; git: 15cecbd757a2f6b0fdc6a8944f4c6d0020b17da0; jvm 21.0.7+6-LTS  
+17:09:43.587 [INFO ] o.e.j.server.handler.ContextHandler - Started oeje10s.ServletContextHandler@3ce6c7d5{/__admin,/__admin,b=null,a=AVAILABLE,h=oeje10s.ServletHandler@5aae6e52{STARTED}}  
+17:09:43.599 [WARN ] o.e.jetty.util.DeprecationWarning - Using @Deprecated Class org.eclipse.jetty.ee10.servlets.CrossOriginFilter  
+17:09:43.605 [INFO ] o.e.j.e.s.ServletContextHandler - Started oeje10s.ServletContextHandler@3ce6c7d5{/__admin,/__admin,b=null,a=AVAILABLE,h=oeje10s.ServletHandler@5aae6e52{STARTED}}  
+17:09:43.610 [INFO ] o.e.j.server.handler.ContextHandler - Started oeje10s.ServletContextHandler@4174f976{ROOT,/,b=null,a=AVAILABLE,h=oeje10s.ServletHandler@2e63c30f{STARTED}}  
+17:09:43.616 [INFO ] o.e.j.s.handler.ContextHandler.ROOT - RequestHandlerClass from context returned com.github.tomakehurst.wiremock.http.StubRequestHandler. Normalized mapped under returned 'null'  
+17:09:43.618 [INFO ] o.e.j.e.s.ServletContextHandler - Started oeje10s.ServletContextHandler@4174f976{ROOT,/,b=null,a=AVAILABLE,h=oeje10s.ServletHandler@2e63c30f{STARTED}}  
+17:09:43.662 [INFO ] o.e.jetty.server.AbstractConnector - Started oejs.NetworkTrafficServerConnector@916c34f{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:50428}  
+17:09:43.662 [INFO ] org.eclipse.jetty.server.Server - Started oejs.Server@20d67225{STARTING}[12.1.14,sto=1000] @161ms  
+17:09:43.665 [INFO ] c.w.s.i.WireMockServerCreator cotacao - Started WireMockServer with name 'cotacao':http://localhost:50428  
+17:09:43.665 [INFO ] org.wiremock.spring.internal.Store - Resolving store from context: application  
+17:09:43.669 [INFO ] c.w.s.i.WireMockServerCreator cotacao - Adding property 'app.cotacao-app.endpoint=http://localhost:50428' with HTTP base URL to Spring application context  
+17:09:43.676 [INFO ] c.w.s.i.WireMockServerCreator cotacao - Adding property 'spring.cloud.openfeign.client.config.feignClientCotacaoApp.url=http://localhost:50428' with HTTP base URL to Spring application context  
+17:09:43.677 [INFO ] c.w.s.i.WireMockServerCreator cotacao - Adding property 'wiremock.server.port=50428' with HTTP port to Spring application context  
+17:09:43.734 [INFO ] c.p.e.c.t.c.BaseInitializer$Initializer - Charset atual do sistema: UTF-8.  
+17:09:43.734 [INFO ] c.p.e.c.t.c.BaseInitializer$Initializer - Configurando padrões de data e locale.  
+17:09:43.735 [INFO ] c.p.e.c.t.c.BaseInitializer$Initializer - Locale atual do sistema: português (Brasil).  
+17:09:43.735 [INFO ] c.p.e.c.t.c.BaseInitializer$Initializer - TimeZone atual do sistema: Horário Padrão de Brasília.  
+17:09:43.745 [INFO ] f.c.p.c.p.i.e.c.PremiosPutIT - Starting PremiosPutIT using Java 21.0.7 with PID 28804 (started by jhonnyscerni in C:\Users\jhonnyscerni\Documents\workspace\softvaro\java\sboot\sboot-auto-cota-premio-informado)  
+17:09:43.745 [INFO ] f.c.p.c.p.i.e.c.PremiosPutIT - The following 1 profile is active: "testepipeline"  
+17:09:44.703 [INFO ] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.  
+17:09:44.817 [INFO ] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 109 ms. Found 1 MongoDB repository interface.  
+17:09:45.000 [INFO ] o.s.cloud.context.scope.GenericScope - BeanFactory id=1da65b41-3727-3085-b396-7e7df51f7a9d  
+17:09:45.126 [INFO ] o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 0 (http)  
+17:09:45.127 [INFO ] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-auto-3"]  
+17:09:45.128 [INFO ] o.a.catalina.core.StandardService - Starting service [Tomcat]  
+17:09:45.129 [INFO ] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.27]  
+17:09:45.272 [INFO ] o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1523 ms  
+17:09:45.631 [INFO ] c.p.c.p.i.c.w.e.ApiExceptionHandler - ApiExceptionHandler inicializado.  
+17:09:45.667 [INFO ] org.mongodb.driver.client - MongoClient with metadata {"driver": {"name": "mongo-java-driver|spring-boot|sync", "version": "5.14.0"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Azul Systems, Inc./21.0.7+6-LTS"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, maxAdaptiveRetries=null, enableOverloadRetargeting=false, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, commandListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsCommandListener@375099e7], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@4a630349, com.mongodb.Jep395RecordCodecProvider@70d5c532, com.mongodb.KotlinCodecProvider@719de9b6, EnumCodecProvider{}]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:62403], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=<hidden>, password=<hidden>}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=<hidden>, password=<hidden>}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsConnectionPoolListener@6c459515], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverMonitoringMode=AUTO, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=UNSPECIFIED, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null, timeoutMS=null}  
+17:09:45.695 [INFO ] org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:62403, type=REPLICA_SET_PRIMARY, cryptd=false, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=21, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=23302100, minRoundTripTimeNanos=0, setName='docker-rs', canonicalAddress=852ad59e06a6:27017, hosts=[852ad59e06a6:27017], passives=[], arbiters=[], primary='852ad59e06a6:27017', tagSet=TagSet{[]}, electionId=7fffffff0000000000000001, setVersion=1, topologyVersion=TopologyVersion{processId=6afcb45a7294eaeeca0c5f64, counter=6}, lastWriteDate=Tue Nov 17 17:09:38 BRT 2026, lastUpdateTimeNanos=557598836311000}  
+17:09:46.137 [WARN ] o.s.c.o.FeignClientFactoryBean - FeignClient with contextId 'feignClientCotacaoApp' is being initialized more than once. Ensure the Client bean is Singleton scoped to avoid connection pool exhaustion.  
+17:09:46.144 [INFO ] c.p.c.p.i.config.DatadogStatsdConfig - StatsD DESATIVADO.  
+17:09:46.583 [INFO ] c.p.arqt.util.filter.SecurityConfig - Foram liberadas 11 rotas  
+17:09:46.598 [INFO ] c.p.arqt.util.filter.SecurityConfig - Claim de autorizacao roles  
+17:09:46.980 [INFO ] o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'  
+17:09:47.001 [INFO ] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-auto-3"]  
+17:09:47.007 [INFO ] o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 50432 (http) with context path '/sboot-auto-cota-premio-informado'  
+17:09:47.030 [INFO ] f.c.p.c.p.i.e.c.PremiosPutIT - Started PremiosPutIT in 5.126 seconds (process running for 71.695)  
+17:09:47.031 [WARN ] o.s.c.events.SpringDocAppInitializer - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'  
+17:09:47.031 [WARN ] o.s.c.events.SpringDocAppInitializer - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'  
+17:09:47.041 [INFO ] org.wiremock.spring.internal.Store - Resolving store from context: application  
+17:09:47.043 [INFO ] org.wiremock.spring.internal.Store - Resolving store from context: application  
+17:09:47.044 [INFO ] org.wiremock.spring.internal.Store - Resolving store from context: application  
+17:09:47.044 [INFO ] o.w.s.i.WireMockSpringJunitExtension - Configuring WireMock for default instance, 'cotacao' on '50428'.  
+17:09:47.248 [INFO ] o.a.c.c.C.[.[.[/sboot-auto-cota-premio-informado] - Initializing Spring DispatcherServlet 'dispatcherServlet'  
+17:09:47.248 [INFO ] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'  
+17:09:47.251 [INFO ] o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms  
+17:09:47.413 [WARN ] o.h.v.i.m.a.CascadingMetaDataBuilder - HV000271: Using `@Valid` on a container (java.util.List) is deprecated. You should apply the annotation on the type argument(s). Affected element: coberturas trace_id 6afcb48b201154e5ac61c431980f1105 span_id dd530b0575ba8f06 
+17:09:47.416 [WARN ] o.h.v.i.m.a.CascadingMetaDataBuilder - HV000271: Using `@Valid` on a container (java.util.List) is deprecated. You should apply the annotation on the type argument(s). Affected element: AlteracaoPremioRequest#getCoberturas() trace_id 6afcb48b201154e5ac61c431980f1105 span_id dd530b0575ba8f06 
+17:09:47.417 [WARN ] o.h.v.i.m.a.CascadingMetaDataBuilder - HV000271: Using `@Valid` on a container (java.util.List) is deprecated. You should apply the annotation on the type argument(s). Affected element: AlteracaoPremioRequest#getCoberturas() trace_id 6afcb48b201154e5ac61c431980f1105 span_id dd530b0575ba8f06 
+17:09:48.512 [INFO ] WireMock.cotacao - Request received:
+127.0.0.1 - PUT /ofertas/123456-2-3/premios
+
+Content-Type: [application/json]
+traceparent: [00-6afcb48b201154e5ac61c431980f1105-9b876a6c4631d499-01]
+Accept: [*/*]
+Accept-Encoding: [gzip, deflate, zstd, lz4-framed, lz4-block, bzip2, pack200, deflate64, x-gzip]
+Host: [localhost:50428]
+Content-Length: [54]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/5.6.3 (Java/21.0.7)]
+[{"numeroItem":1,"codCobertura":2,"valorPremio":9.50}]
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "{\"numeroOrcamento\":3}",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+Matched-Stub-Id: [f0cb1992-30ef-4d7f-926f-6d1c3abedc3e]
+  
+17:09:48.684 [INFO ] c.p.a.util.filter.RequestInterceptor - RESPONSE -  Method:PUT, URI: /sboot-auto-cota-premio-informado/v1/ofertas/123456-2-3/premios, Path: /v1/ofertas/123456-2-3/premios, Status:200 trace_id 6afcb48b201154e5ac61c431980f1105 span_id dd530b0575ba8f06 
+17:09:48.723 [INFO ] org.wiremock.spring.internal.Store - Resolving store from context: application  
+17:09:48.724 [INFO ] org.wiremock.spring.internal.Store - Resolving store from context: application  
+17:09:48.724 [INFO ] org.wiremock.spring.internal.Store - Resolving store from context: application  
+17:09:48.724 [INFO ] o.w.s.i.WireMockSpringJunitExtension - Configuring WireMock for default instance, 'cotacao' on '50428'.  
+17:09:48.794 [INFO ] org.wiremock.spring.internal.Store - Resolving store from context: application  
+17:09:48.794 [INFO ] org.wiremock.spring.internal.Store - Resolving store from context: application  
+17:09:48.795 [INFO ] org.wiremock.spring.internal.Store - Resolving store from context: application  
+17:09:48.795 [INFO ] o.w.s.i.WireMockSpringJunitExtension - Configuring WireMock for default instance, 'cotacao' on '50428'.  
+17:09:48.843 [INFO ] org.wiremock.spring.internal.Store - Resolving store from context: application  
+17:09:48.843 [INFO ] org.wiremock.spring.internal.Store - Resolving store from context: application  
+17:09:48.843 [INFO ] org.wiremock.spring.internal.Store - Resolving store from context: application  
+17:09:48.843 [INFO ] o.w.s.i.WireMockSpringJunitExtension - Configuring WireMock for default instance, 'cotacao' on '50428'.  
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.057 s -- in functional.com.porto.cota.premio.informado.entrypoint.controller.PremiosPutIT
+[INFO] Running functional.com.porto.cota.premio.informado.entrypoint.listener.DescarteRecalculoListenerIT
+17:09:48.962 [INFO ] o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running  
+  ____            _
+ |  _ \ ___  _ __| |_ ___
+ | |_) / _ \| '__| __/ _ \
+ |  __/ (_) | |  | || (_) |
+ |_|   \___/|_|   \__\___/
+
+-------------------------------------------------------------------------------
+  Aplicacao: sboot-auto-cota-premio-informado
+Spring Boot: 4.1.1
+      Porta: 0
+     Perfil: testepipeline
+   Contexto: /sboot-auto-cota-premio-informado
+-------------------------------------------------------------------------------
+
+17:09:49.024 [INFO ] tc.rabbitmq:3.11-management - Creating container for image: rabbitmq:3.11-management  
+17:09:49.196 [INFO ] tc.rabbitmq:3.11-management - Container rabbitmq:3.11-management is starting: 8ef2fd2dda4802a109ad02f01b855ad2d11800df67da3265cdb941a08b361956  
+17:10:06.959 [INFO ] tc.rabbitmq:3.11-management - Container rabbitmq:3.11-management started in PT17.9336441S  
+17:10:06.961 [INFO ] c.p.e.c.t.c.BaseInitializer$Initializer - Charset atual do sistema: UTF-8.  
+17:10:06.961 [INFO ] c.p.e.c.t.c.BaseInitializer$Initializer - Configurando padrões de data e locale.  
+17:10:06.961 [INFO ] c.p.e.c.t.c.BaseInitializer$Initializer - Locale atual do sistema: português (Brasil).  
+17:10:06.961 [INFO ] c.p.e.c.t.c.BaseInitializer$Initializer - TimeZone atual do sistema: Horário Padrão de Brasília.  
+17:10:06.965 [INFO ] f.c.p.c.p.i.e.l.DescarteRecalculoListenerIT - Starting DescarteRecalculoListenerIT using Java 21.0.7 with PID 28804 (started by jhonnyscerni in C:\Users\jhonnyscerni\Documents\workspace\softvaro\java\sboot\sboot-auto-cota-premio-informado)  
+17:10:06.965 [INFO ] f.c.p.c.p.i.e.l.DescarteRecalculoListenerIT - The following 1 profile is active: "testepipeline"  
+17:10:07.722 [INFO ] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.  
+17:10:07.807 [INFO ] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 82 ms. Found 1 MongoDB repository interface.  
+17:10:07.980 [INFO ] o.s.cloud.context.scope.GenericScope - BeanFactory id=1da65b41-3727-3085-b396-7e7df51f7a9d  
+17:10:08.110 [INFO ] o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 0 (http)  
+17:10:08.112 [INFO ] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-auto-4"]  
+17:10:08.113 [INFO ] o.a.catalina.core.StandardService - Starting service [Tomcat]  
+17:10:08.113 [INFO ] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.27]  
+17:10:08.248 [INFO ] o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1281 ms  
+17:10:08.525 [INFO ] c.p.c.p.i.c.w.e.ApiExceptionHandler - ApiExceptionHandler inicializado.  
+17:10:08.599 [INFO ] org.mongodb.driver.client - MongoClient with metadata {"driver": {"name": "mongo-java-driver|spring-boot|sync", "version": "5.14.0"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Azul Systems, Inc./21.0.7+6-LTS"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, maxAdaptiveRetries=null, enableOverloadRetargeting=false, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, commandListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsCommandListener@6eafc58e], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@4a630349, com.mongodb.Jep395RecordCodecProvider@70d5c532, com.mongodb.KotlinCodecProvider@719de9b6, EnumCodecProvider{}]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:62403], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=<hidden>, password=<hidden>}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=<hidden>, password=<hidden>}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsConnectionPoolListener@20c14eba], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverMonitoringMode=AUTO, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=UNSPECIFIED, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null, timeoutMS=null}  
+17:10:08.675 [INFO ] org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:62403, type=REPLICA_SET_PRIMARY, cryptd=false, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=21, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=62293899, minRoundTripTimeNanos=0, setName='docker-rs', canonicalAddress=852ad59e06a6:27017, hosts=[852ad59e06a6:27017], passives=[], arbiters=[], primary='852ad59e06a6:27017', tagSet=TagSet{[]}, electionId=7fffffff0000000000000001, setVersion=1, topologyVersion=TopologyVersion{processId=6afcb45a7294eaeeca0c5f64, counter=6}, lastWriteDate=Tue Nov 17 17:10:02 BRT 2026, lastUpdateTimeNanos=557621816125700}  
+17:10:09.045 [WARN ] o.s.c.o.FeignClientFactoryBean - FeignClient with contextId 'feignClientCotacaoApp' is being initialized more than once. Ensure the Client bean is Singleton scoped to avoid connection pool exhaustion.  
+17:10:09.055 [INFO ] c.p.c.p.i.config.DatadogStatsdConfig - StatsD DESATIVADO.  
+17:10:09.586 [INFO ] c.p.arqt.util.filter.SecurityConfig - Foram liberadas 11 rotas  
+17:10:09.591 [INFO ] c.p.arqt.util.filter.SecurityConfig - Claim de autorizacao roles  
+17:10:10.044 [INFO ] o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'  
+17:10:10.091 [INFO ] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-auto-4"]  
+17:10:10.101 [INFO ] o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 50546 (http) with context path '/sboot-auto-cota-premio-informado'  
+17:10:10.146 [INFO ] o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [localhost:50439]  
+17:10:10.528 [INFO ] o.s.a.r.c.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#774dc243:0/SimpleConnection@39e0289e [delegate=amqp://guest@127.0.0.1:50439/, localPort=50547]  
+17:10:10.644 [INFO ] f.c.p.c.p.i.e.l.DescarteRecalculoListenerIT - Started DescarteRecalculoListenerIT in 21.682 seconds (process running for 95.31)  
+17:10:10.647 [WARN ] o.s.c.events.SpringDocAppInitializer - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'  
+17:10:10.647 [WARN ] o.s.c.events.SpringDocAppInitializer - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'  
+17:10:11.162 [INFO ] c.p.c.p.i.c.u.i.DescartarPremioInformadoPorRecalculoUseCaseImpl - Premio informado descartado por recalculo. id=68f1b0a1b2c3d4e5f6a7c001, cotacao=123456, versao=2, orcamento=3  
+17:10:11.718 [WARN ] c.p.c.p.i.e.l.DescarteRecalculoListener - Evento de recalculo de oferta ignorado por dados obrigatorios ausentes: class OfertaRecalculadaEvento {
+    tipo: OFERTA_RECALCULADA
+    numeroCotacao: 123456
+    versaoCotacao: 2
+    numeroOrcamento: 3
+    matricula: null
+    perfil: ANALISTA_INTERNO
+    dataHoraRecalculo: 2026-11-16T13:00Z
+}  
+17:10:12.877 [INFO ] c.p.c.p.i.c.u.i.DescartarPremioInformadoPorRecalculoUseCaseImpl - Nenhum premio informado ativo para descarte por recalculo. cotacao=123456, versao=2, orcamento=3  
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 25.00 s -- in functional.com.porto.cota.premio.informado.entrypoint.listener.DescarteRecalculoListenerIT
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- jacoco:0.8.13:report (>integration-test report) @ sboot-auto-cota-premio-informado ---
+[INFO] Loading execution data file C:\Users\jhonnyscerni\Documents\workspace\softvaro\java\sboot\sboot-auto-cota-premio-informado\target\jacoco.exec
+[INFO] Analyzed bundle 'sboot-auto-cota-premio-informado' with 63 classes
+[INFO] 
+[INFO] --- failsafe:3.5.6:verify (default) @ sboot-auto-cota-premio-informado ---
+[INFO] 
+[INFO] --- jacoco:0.8.13:check (jacoco-check) @ sboot-auto-cota-premio-informado ---
+[INFO] Loading execution data file C:\Users\jhonnyscerni\Documents\workspace\softvaro\java\sboot\sboot-auto-cota-premio-informado\target\jacoco.exec
+[INFO] Analyzed bundle 'sboot-auto-cota-premio-informado' with 63 classes
+[INFO] All coverage checks have been met.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  03:03 min
+[INFO] Finished at: 2026-11-17T17:10:22-03:00
+[INFO] ------------------------------------------------------------------------
